@@ -1,5 +1,6 @@
 class ExpensesController < ApplicationController
   before_action :set_expense, only: %i[ show edit update destroy ]
+  before_action :set_categories
 
   # GET /expenses or /expenses.json
   def index
@@ -65,6 +66,10 @@ class ExpensesController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def expense_params
-      params.require(:expense).permit(:title, :price)
+      params.require(:expense).permit(:title, :price, :category_id)
+    end
+
+    def set_categories
+      @categories = Category.all.order(:name)
     end
 end

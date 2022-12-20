@@ -407,3 +407,1833 @@ FOREIGN KEY ("category_id")
   [1m[36mTRANSACTION (6.6ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2022-12-20 10:20:34 -0300
+Started GET "/" for ::1 at 2022-12-20 10:20:34 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExpensesController#index as HTML
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (1.4ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  ↳ app/views/expenses/index.html.erb:6
+  Rendered expenses/index.html.erb within layouts/application (Duration: 337.6ms | Allocations: 2903)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 488.4ms | Allocations: 2904)
+  Rendered layout layouts/application.html.erb (Duration: 5443.0ms | Allocations: 74493)
+Completed 200 OK in 7116ms (Views: 6007.4ms | ActiveRecord: 2.3ms | Allocations: 78567)
+
+
+  Rendered layout layouts/application.html.erb (Duration: 6145.5ms | Allocations: 80776)
+Completed 200 OK in 7923ms (Views: 6612.0ms | ActiveRecord: 1.4ms | Allocations: 84951)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:20:50 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  Rendered expenses/_form.html.erb (Duration: 1080.6ms | Allocations: 4077)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 1117.1ms | Allocations: 4414)
+  Rendered layout layouts/application.html.erb (Duration: 1371.7ms | Allocations: 6831)
+Completed 200 OK in 2360ms (Views: 1512.9ms | ActiveRecord: 4.0ms | Allocations: 17651)
+
+
+Started POST "/expenses" for ::1 at 2022-12-20 10:21:13 -0300
+Processing by ExpensesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "expense"=>{"title"=>"Mc Donald's", "price"=>"12"}, "commit"=>"Create Expense"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/expenses_controller.rb:27:in `block in create'
+  [1m[36mExpense Create (5.8ms)[0m  [1m[32mINSERT INTO "expenses" ("title", "price", "created_at", "updated_at", "category_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "Mc Donald's"], ["price", 12.0], ["created_at", "2022-12-20 13:21:13.449788"], ["updated_at", "2022-12-20 13:21:13.449788"], ["category_id", nil]]
+  ↳ app/controllers/expenses_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/expenses_controller.rb:27:in `block in create'
+Completed 500 Internal Server Error in 299ms (ActiveRecord: 7.0ms | Allocations: 5098)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: NOT NULL constraint failed: expenses.category_id):
+  
+app/controllers/expenses_controller.rb:27:in `block in create'
+app/controllers/expenses_controller.rb:26:in `create'
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:27:19 -0300
+Processing by ExpensesController#new as HTML
+Completed 500 Internal Server Error in 23ms (Allocations: 1177)
+
+
+  
+ArgumentError (Unknown validator: 'PrecenseValidator'):
+  
+app/models/expense.rb:2:in `<class:Expense>'
+app/models/expense.rb:1:in `<main>'
+app/controllers/expenses_controller.rb:15:in `new'
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:27:42 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  Rendered expenses/_form.html.erb (Duration: 7.1ms | Allocations: 1408)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 52.3ms | Allocations: 1521)
+  Rendered layout layouts/application.html.erb (Duration: 228.4ms | Allocations: 15755)
+Completed 200 OK in 345ms (Views: 284.6ms | ActiveRecord: 1.4ms | Allocations: 18544)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:39:52 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  Rendered expenses/_form.html.erb (Duration: 4.4ms | Allocations: 1449)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 23.8ms | Allocations: 1727)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 1811)
+Completed 500 Internal Server Error in 322ms (ActiveRecord: 1.7ms | Allocations: 7290)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: expense) do |form| %>
+  <% if expense.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+
+      <ul>
+        <% expense.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+          <%= form.label :category, style: "display: block" %>
+          <%= form.select :category_id, options_for_select(@categories.collect ( |cat| (cat.name, cat.id))) %>
+  </div>
+
+  <div>
+    <%= form.label :price, style: "display: block" %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+):
+1:    <%= form_with(model: expense) do |form| %>
+2:      <% if expense.errors.any? %>
+3:        <div style="color: red">
+4:          <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% expense.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div>
+15:        <%= form.label :title, style: "display: block" %>
+16:        <%= form.text_field :title %>
+17:      </div>
+18:    
+19:      <div>
+20:              <%= form.label :category, style: "display: block" %>
+21:              <%= form.select :category_id, options_for_select(@categories.collect ( |cat| (cat.name, cat.id))) %>
+22:      </div>
+23:    
+24:      <div>
+25:        <%= form.label :price, style: "display: block" %>
+26:        <%= form.text_field :price %>
+27:      </div>
+28:    
+29:      <div>
+30:        <%= form.submit %>
+31:      </div>
+32:    <% end %>
+  
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/new.html.erb:3
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:41:37 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  Rendered expenses/_form.html.erb (Duration: 4.4ms | Allocations: 1453)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 14.4ms | Allocations: 1515)
+  Rendered layout layouts/application.html.erb (Duration: 44.9ms | Allocations: 1593)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms | Allocations: 1906)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: expense) do |form| %>
+  <% if expense.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+
+      <ul>
+        <% expense.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+          <%= form.label :category, style: "display: block" %>
+          <%= form.select :category_id, options_for_select(@categories.collect ( |cat| (cat.name, cat.id))) %>
+  </div>
+
+  <div>
+    <%= form.label :price, style: "display: block" %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+):
+1:    <%= form_with(model: expense) do |form| %>
+2:      <% if expense.errors.any? %>
+3:        <div style="color: red">
+4:          <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% expense.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div>
+15:        <%= form.label :title, style: "display: block" %>
+16:        <%= form.text_field :title %>
+17:      </div>
+18:    
+19:      <div>
+20:              <%= form.label :category, style: "display: block" %>
+21:              <%= form.select :category_id, options_for_select(@categories.collect ( |cat| (cat.name, cat.id))) %>
+22:      </div>
+23:    
+24:      <div>
+25:        <%= form.label :price, style: "display: block" %>
+26:        <%= form.text_field :price %>
+27:      </div>
+28:    
+29:      <div>
+30:        <%= form.submit %>
+31:      </div>
+32:    <% end %>
+  
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/new.html.erb:3
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:43:30 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  Rendered expenses/_form.html.erb (Duration: 3.8ms | Allocations: 1471)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 59.9ms | Allocations: 1744)
+  Rendered layout layouts/application.html.erb (Duration: 154.0ms | Allocations: 1828)
+Completed 500 Internal Server Error in 253ms (ActiveRecord: 0.0ms | Allocations: 2650)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: expense) do |form| %>
+  <% if expense.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+
+      <ul>
+        <% expense.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+          <%= form.label :category, style: "display: block" %>
+          <%= form.select :category_id, options_for_select(@category.collect ( |cat| (cat.name, cat.id))) %>
+  </div>
+
+  <div>
+    <%= form.label :price, style: "display: block" %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+):
+1:    <%= form_with(model: expense) do |form| %>
+2:      <% if expense.errors.any? %>
+3:        <div style="color: red">
+4:          <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% expense.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div>
+15:        <%= form.label :title, style: "display: block" %>
+16:        <%= form.text_field :title %>
+17:      </div>
+18:    
+19:      <div>
+20:              <%= form.label :category, style: "display: block" %>
+21:              <%= form.select :category_id, options_for_select(@category.collect ( |cat| (cat.name, cat.id))) %>
+22:      </div>
+23:    
+24:      <div>
+25:        <%= form.label :price, style: "display: block" %>
+26:        <%= form.text_field :price %>
+27:      </div>
+28:    
+29:      <div>
+30:        <%= form.submit %>
+31:      </div>
+32:    <% end %>
+  
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '|', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected ')', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/new.html.erb:3
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:46:20 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  Rendered expenses/_form.html.erb (Duration: 4.2ms | Allocations: 1470)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 69.1ms | Allocations: 1743)
+  Rendered layout layouts/application.html.erb (Duration: 219.2ms | Allocations: 1832)
+Completed 500 Internal Server Error in 306ms (Allocations: 2675)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%= form_with(model: expense) do |form| %>
+  <% if expense.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+
+      <ul>
+        <% expense.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :category, style: "display: block" %>
+    <%= form.select :category_id, options_for_select(@categories.collect { |cat| (cat.name, cat.id)}) %>
+  </div>
+
+  <div>
+    <%= form.label :price, style: "display: block" %>
+    <%= form.text_field :price %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+):
+1:    <%= form_with(model: expense) do |form| %>
+2:      <% if expense.errors.any? %>
+3:        <div style="color: red">
+4:          <h2><%= pluralize(expense.errors.count, "error") %> prohibited this expense from being saved:</h2>
+5:    
+6:          <ul>
+7:            <% expense.errors.each do |error| %>
+8:              <li><%= error.full_message %></li>
+9:            <% end %>
+10:          </ul>
+11:        </div>
+12:      <% end %>
+13:    
+14:      <div>
+15:        <%= form.label :title, style: "display: block" %>
+16:        <%= form.text_field :title %>
+17:      </div>
+18:    
+19:      <div>
+20:        <%= form.label :category, style: "display: block" %>
+21:        <%= form.select :category_id, options_for_select(@categories.collect { |cat| (cat.name, cat.id)}) %>
+22:      </div>
+23:    
+24:      <div>
+25:        <%= form.label :price, style: "display: block" %>
+26:        <%= form.text_field :price %>
+27:      </div>
+28:    
+29:      <div>
+30:        <%= form.submit %>
+31:      </div>
+32:    <% end %>
+  
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '}', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting '}'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '}', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting '}'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '}', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting '}'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '}', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting '}'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '}', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting '}'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/_form.html.erb:21: syntax error, unexpected '}', expecting '='
+app/views/expenses/_form.html.erb:32: syntax error, unexpected `end', expecting '}'
+app/views/expenses/_form.html.erb:34: syntax error, unexpected `end', expecting ')'
+app/views/expenses/new.html.erb:3
+Started GET "/expenses/new" for ::1 at 2022-12-20 10:47:08 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 2028.5ms | Allocations: 9912)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 2224.5ms | Allocations: 10235)
+  Rendered layout layouts/application.html.erb (Duration: 2763.8ms | Allocations: 24710)
+Completed 200 OK in 3095ms (Views: 3066.1ms | ActiveRecord: 2.5ms | Allocations: 25599)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-20 11:17:16 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 148.7ms | Allocations: 2153)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 152.0ms | Allocations: 2244)
+  Rendered layout layouts/application.html.erb (Duration: 303.7ms | Allocations: 4538)
+Completed 200 OK in 348ms (Views: 326.5ms | ActiveRecord: 18.2ms | Allocations: 4891)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-20 11:17:28 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 179.2ms | Allocations: 1895)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 186.1ms | Allocations: 1982)
+  Rendered layout layouts/application.html.erb (Duration: 849.7ms | Allocations: 4276)
+Completed 200 OK in 1363ms (Views: 1314.2ms | ActiveRecord: 0.9ms | Allocations: 4588)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "food"], ["LIMIT", 1]]
+  [1m[36mCategory Create (7.6ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "food"], ["created_at", "2022-12-20 14:19:41.427823"], ["updated_at", "2022-12-20 14:19:41.427823"]]
+  [1m[36mTRANSACTION (8.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "clothes"], ["LIMIT", 1]]
+  [1m[36mCategory Create (5.0ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "clothes"], ["created_at", "2022-12-20 14:19:41.567180"], ["updated_at", "2022-12-20 14:19:41.567180"]]
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "entretainment"], ["LIMIT", 1]]
+  [1m[36mCategory Create (3.8ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "entretainment"], ["created_at", "2022-12-20 14:19:41.601599"], ["updated_at", "2022-12-20 14:19:41.601599"]]
+  [1m[36mTRANSACTION (5.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/expenses/new" for ::1 at 2022-12-20 11:20:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 150.7ms | Allocations: 7201)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 175.7ms | Allocations: 7796)
+  Rendered layout layouts/application.html.erb (Duration: 621.5ms | Allocations: 43960)
+Completed 200 OK in 824ms (Views: 658.9ms | ActiveRecord: 9.2ms | Allocations: 54054)
+
+
+Started POST "/expenses" for ::1 at 2022-12-20 11:20:51 -0300
+Processing by ExpensesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "expense"=>{"title"=>"McDonald's", "category_id"=>"1", "price"=>"12"}, "commit"=>"Create Expense"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mCategory Load (11.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mExpense Create (18.5ms)[0m  [1m[32mINSERT INTO "expenses" ("title", "price", "created_at", "updated_at", "category_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "McDonald's"], ["price", 12.0], ["created_at", "2022-12-20 14:20:52.270628"], ["updated_at", "2022-12-20 14:20:52.270628"], ["category_id", 1]]
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+Redirected to http://localhost:3000/expenses/1
+Completed 302 Found in 750ms (ActiveRecord: 36.8ms | Allocations: 10309)
+
+
+Started GET "/expenses/1" for ::1 at 2022-12-20 11:20:52 -0300
+Processing by ExpensesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mExpense Load (15.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:64:in `set_expense'
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/show.html.erb within layouts/application
+  Rendered expenses/_expense.html.erb (Duration: 109.9ms | Allocations: 206)
+  Rendered expenses/show.html.erb within layouts/application (Duration: 225.2ms | Allocations: 1682)
+  Rendered layout layouts/application.html.erb (Duration: 315.2ms | Allocations: 4083)
+Completed 200 OK in 512ms (Views: 362.9ms | ActiveRecord: 15.8ms | Allocations: 5786)
+
+
+Started GET "/expenses" for ::1 at 2022-12-20 11:21:50 -0300
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  Rendered expenses/_expense.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 38.9ms | Allocations: 1409)
+  Rendered layout layouts/application.html.erb (Duration: 145.1ms | Allocations: 3697)
+Completed 200 OK in 184ms (Views: 170.0ms | ActiveRecord: 1.1ms | Allocations: 4131)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-20 11:21:53 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 52.8ms | Allocations: 2116)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 65.5ms | Allocations: 2204)
+  Rendered layout layouts/application.html.erb (Duration: 127.8ms | Allocations: 4497)
+Completed 200 OK in 150ms (Views: 139.5ms | ActiveRecord: 1.3ms | Allocations: 4820)
+
+
+Started POST "/expenses" for ::1 at 2022-12-20 11:22:10 -0300
+Processing by ExpensesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "expense"=>{"title"=>"sweatshirt", "category_id"=>"2", "price"=>"30"}, "commit"=>"Create Expense"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mExpense Create (13.5ms)[0m  [1m[32mINSERT INTO "expenses" ("title", "price", "created_at", "updated_at", "category_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "sweatshirt"], ["price", 30.0], ["created_at", "2022-12-20 14:22:10.278077"], ["updated_at", "2022-12-20 14:22:10.278077"], ["category_id", 2]]
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mTRANSACTION (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+Redirected to http://localhost:3000/expenses/2
+Completed 302 Found in 180ms (ActiveRecord: 19.9ms | Allocations: 3522)
+
+
+Started GET "/expenses/2" for ::1 at 2022-12-20 11:22:10 -0300
+Processing by ExpensesController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mExpense Load (0.7ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:64:in `set_expense'
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/show.html.erb within layouts/application
+  Rendered expenses/_expense.html.erb (Duration: 0.4ms | Allocations: 20)
+  Rendered expenses/show.html.erb within layouts/application (Duration: 82.8ms | Allocations: 739)
+  Rendered layout layouts/application.html.erb (Duration: 192.8ms | Allocations: 3015)
+Completed 200 OK in 386ms (Views: 213.7ms | ActiveRecord: 0.7ms | Allocations: 3794)
+
+
+Started GET "/expenses" for ::1 at 2022-12-20 11:22:13 -0300
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  Rendered expenses/_expense.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered expenses/_expense.html.erb (Duration: 0.2ms | Allocations: 19)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 45.7ms | Allocations: 1174)
+  Rendered layout layouts/application.html.erb (Duration: 100.4ms | Allocations: 3455)
+Completed 200 OK in 170ms (Views: 150.1ms | ActiveRecord: 0.8ms | Allocations: 3761)
+
+
+Started GET "/expenses" for ::1 at 2022-12-20 11:24:32 -0300
+Started GET "/expenses/new" for ::1 at 2022-12-20 11:24:56 -0300
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  Rendered expenses/_expense.html.erb (Duration: 0.4ms | Allocations: 46)
+  Rendered expenses/_expense.html.erb (Duration: 0.5ms | Allocations: 19)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 547.3ms | Allocations: 3350)
+  Rendered layout layouts/application.html.erb (Duration: 1292.9ms | Allocations: 17602)
+Completed 200 OK in 1900ms (Views: 1742.3ms | ActiveRecord: 9.6ms | Allocations: 20458)
+
+
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 149.2ms | Allocations: 3481)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 199.0ms | Allocations: 3591)
+  Rendered layout layouts/application.html.erb (Duration: 774.7ms | Allocations: 17826)
+Completed 200 OK in 935ms (Views: 863.4ms | ActiveRecord: 20.7ms | Allocations: 22391)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-20 11:25:20 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 187.3ms | Allocations: 2059)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 217.3ms | Allocations: 2146)
+  Rendered layout layouts/application.html.erb (Duration: 479.5ms | Allocations: 4439)
+Completed 200 OK in 551ms (Views: 515.8ms | ActiveRecord: 0.8ms | Allocations: 4801)
+
+
+Started POST "/expenses" for ::1 at 2022-12-20 11:25:46 -0300
+Processing by ExpensesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "expense"=>{"title"=>"movies", "category_id"=>"3", "price"=>"50"}, "commit"=>"Create Expense"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mExpense Create (8.9ms)[0m  [1m[32mINSERT INTO "expenses" ("title", "price", "created_at", "updated_at", "category_id") VALUES (?, ?, ?, ?, ?)[0m  [["title", "movies"], ["price", 50.0], ["created_at", "2022-12-20 14:25:46.721045"], ["updated_at", "2022-12-20 14:25:46.721045"], ["category_id", 3]]
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+  [1m[36mTRANSACTION (9.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/expenses_controller.rb:28:in `block in create'
+Redirected to http://localhost:3000/expenses/3
+Completed 302 Found in 198ms (ActiveRecord: 19.5ms | Allocations: 5179)
+
+
+Started GET "/expenses/3" for ::1 at 2022-12-20 11:25:46 -0300
+Processing by ExpensesController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  [1m[36mExpense Load (10.5ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:64:in `set_expense'
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/show.html.erb within layouts/application
+  Rendered expenses/_expense.html.erb (Duration: 0.4ms | Allocations: 29)
+  Rendered expenses/show.html.erb within layouts/application (Duration: 15.5ms | Allocations: 830)
+  Rendered layout layouts/application.html.erb (Duration: 171.7ms | Allocations: 3110)
+Completed 200 OK in 268ms (Views: 185.2ms | ActiveRecord: 10.5ms | Allocations: 4596)
+
+
+Started GET "/expenses" for ::1 at 2022-12-20 11:25:49 -0300
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (3.5ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  Rendered expenses/_expense.html.erb (Duration: 0.2ms | Allocations: 20)
+  Rendered expenses/_expense.html.erb (Duration: 0.2ms | Allocations: 19)
+  Rendered expenses/_expense.html.erb (Duration: 0.2ms | Allocations: 19)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 65.1ms | Allocations: 1351)
+  Rendered layout layouts/application.html.erb (Duration: 131.6ms | Allocations: 3632)
+Completed 200 OK in 161ms (Views: 140.0ms | ActiveRecord: 3.5ms | Allocations: 3956)
+
+
+Started GET "/expenses" for ::1 at 2022-12-20 11:31:37 -0300
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (1.0ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 1572.2ms | Allocations: 12830)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 1996.1ms | Allocations: 14290)
+  Rendered layout layouts/application.html.erb (Duration: 2294.9ms | Allocations: 14373)
+Completed 500 Internal Server Error in 2730ms (ActiveRecord: 3.5ms | Allocations: 15414)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `book' for #<ActionView::Base:0x00000000017a20>
+
+    '.freeze;@output_buffer.append=( link_to expense.category.name, book.category );@output_buffer.safe_append='
+                                                                    ^^^^):
+     6: 
+     7:   <p>
+     8:     <strong>Category:</strong>
+     9:     <%= link_to expense.category.name, book.category %>
+    10:   </p>
+    11: 
+    12:   <p>
+  
+app/views/expenses/_expense.html.erb:9
+app/views/expenses/index.html.erb:7
+app/views/expenses/index.html.erb:6
+Started GET "/expenses" for ::1 at 2022-12-20 11:31:57 -0300
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (3.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 86.6ms | Allocations: 1032)
+  [1m[36mCategory Load (1.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 33.8ms | Allocations: 726)
+  [1m[36mCategory Load (2.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 62.4ms | Allocations: 725)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 269.1ms | Allocations: 4162)
+  Rendered layout layouts/application.html.erb (Duration: 370.4ms | Allocations: 6874)
+Completed 200 OK in 438ms (Views: 402.4ms | ActiveRecord: 8.9ms | Allocations: 7795)
+
+
+Started GET "/categories/1" for ::1 at 2022-12-20 11:32:46 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (1.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 7.7ms | Allocations: 142)
+  Rendered categories/show.html.erb within layouts/application (Duration: 48.6ms | Allocations: 1371)
+  Rendered layout layouts/application.html.erb (Duration: 144.9ms | Allocations: 3831)
+Completed 200 OK in 241ms (Views: 183.1ms | ActiveRecord: 1.5ms | Allocations: 5819)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:32:54 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 69.3ms | Allocations: 1557)
+  Rendered layout layouts/application.html.erb (Duration: 151.0ms | Allocations: 3845)
+Completed 200 OK in 190ms (Views: 164.5ms | ActiveRecord: 0.9ms | Allocations: 4238)
+
+
+Started GET "/categories/2" for ::1 at 2022-12-20 11:33:08 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 8.7ms | Allocations: 698)
+  Rendered layout layouts/application.html.erb (Duration: 91.8ms | Allocations: 2971)
+Completed 200 OK in 163ms (Views: 111.2ms | ActiveRecord: 0.8ms | Allocations: 3748)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:33:13 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 88.8ms | Allocations: 1297)
+  Rendered layout layouts/application.html.erb (Duration: 316.8ms | Allocations: 3578)
+Completed 200 OK in 360ms (Views: 334.6ms | ActiveRecord: 0.7ms | Allocations: 3870)
+
+
+Started GET "/categories/new" for ::1 at 2022-12-20 11:33:17 -0300
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 16.4ms | Allocations: 1303)
+  Rendered categories/new.html.erb within layouts/application (Duration: 43.8ms | Allocations: 1567)
+  Rendered layout layouts/application.html.erb (Duration: 90.8ms | Allocations: 3859)
+Completed 200 OK in 132ms (Views: 105.0ms | ActiveRecord: 0.0ms | Allocations: 4219)
+
+
+Started POST "/categories" for ::1 at 2022-12-20 11:34:12 -0300
+Processing by CategoriesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"furniture"}, "commit"=>"Create Category"}
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "furniture"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mCategory Create (9.1ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "furniture"], ["created_at", "2022-12-20 14:34:12.409607"], ["updated_at", "2022-12-20 14:34:12.409607"]]
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/categories/4
+Completed 302 Found in 144ms (ActiveRecord: 21.0ms | Allocations: 3704)
+
+
+Started GET "/categories/4" for ::1 at 2022-12-20 11:34:12 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"4"}
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 44.9ms | Allocations: 764)
+  Rendered layout layouts/application.html.erb (Duration: 154.4ms | Allocations: 3038)
+Completed 200 OK in 413ms (Views: 181.8ms | ActiveRecord: 0.9ms | Allocations: 3831)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:34:16 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.4ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 76.6ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 140.3ms | Allocations: 3681)
+Completed 200 OK in 164ms (Views: 147.2ms | ActiveRecord: 0.8ms | Allocations: 3973)
+
+
+Started GET "/categories/new" for ::1 at 2022-12-20 11:34:20 -0300
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 10.3ms | Allocations: 901)
+  Rendered categories/new.html.erb within layouts/application (Duration: 16.4ms | Allocations: 988)
+  Rendered layout layouts/application.html.erb (Duration: 97.0ms | Allocations: 3279)
+Completed 200 OK in 124ms (Views: 104.8ms | ActiveRecord: 0.0ms | Allocations: 3572)
+
+
+Started POST "/categories" for ::1 at 2022-12-20 11:34:27 -0300
+Processing by CategoriesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"garden"}, "commit"=>"Create Category"}
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mCategory Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? LIMIT ?[0m  [["name", "garden"], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mCategory Create (10.4ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "garden"], ["created_at", "2022-12-20 14:34:27.893326"], ["updated_at", "2022-12-20 14:34:27.893326"]]
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/categories/5
+Completed 302 Found in 133ms (ActiveRecord: 18.8ms | Allocations: 3218)
+
+
+Started GET "/categories/5" for ::1 at 2022-12-20 11:34:28 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"5"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 50.4ms | Allocations: 711)
+  Rendered layout layouts/application.html.erb (Duration: 136.4ms | Allocations: 2985)
+Completed 200 OK in 269ms (Views: 182.5ms | ActiveRecord: 0.8ms | Allocations: 3739)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:34:34 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.6ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 61.5ms | Allocations: 1533)
+  Rendered layout layouts/application.html.erb (Duration: 168.0ms | Allocations: 3814)
+Completed 200 OK in 201ms (Views: 180.8ms | ActiveRecord: 0.7ms | Allocations: 4106)
+
+
+Started GET "/categories/3" for ::1 at 2022-12-20 11:34:40 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 19.9ms | Allocations: 689)
+  Rendered layout layouts/application.html.erb (Duration: 86.5ms | Allocations: 2962)
+Completed 200 OK in 151ms (Views: 102.6ms | ActiveRecord: 0.8ms | Allocations: 3719)
+
+
+Started GET "/categories/3/edit" for ::1 at 2022-12-20 11:34:52 -0300
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mCategory Load (4.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 8.3ms | Allocations: 990)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 35.7ms | Allocations: 1250)
+  Rendered layout layouts/application.html.erb (Duration: 110.2ms | Allocations: 3538)
+Completed 200 OK in 191ms (Views: 127.3ms | ActiveRecord: 4.8ms | Allocations: 4345)
+
+
+Started PATCH "/categories/3" for ::1 at 2022-12-20 11:34:58 -0300
+Processing by CategoriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Entretainment"}, "commit"=>"Update Category", "id"=>"3"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Exists? (7.1ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? AND "categories"."id" != ? LIMIT ?[0m  [["name", "Entretainment"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Update (15.6ms)[0m  [1m[33mUPDATE "categories" SET "name" = ?, "updated_at" = ? WHERE "categories"."id" = ?[0m  [["name", "Entretainment"], ["updated_at", "2022-12-20 14:34:58.391829"], ["id", 3]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+Redirected to http://localhost:3000/categories/3
+Completed 302 Found in 189ms (ActiveRecord: 29.6ms | Allocations: 4077)
+
+
+Started GET "/categories/3" for ::1 at 2022-12-20 11:34:58 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 33.1ms | Allocations: 708)
+  Rendered layout layouts/application.html.erb (Duration: 560.2ms | Allocations: 2988)
+Completed 200 OK in 667ms (Views: 581.4ms | ActiveRecord: 0.7ms | Allocations: 3742)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:35:01 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 87.5ms | Allocations: 1520)
+  Rendered layout layouts/application.html.erb (Duration: 174.8ms | Allocations: 3816)
+Completed 200 OK in 246ms (Views: 225.7ms | ActiveRecord: 0.8ms | Allocations: 4108)
+
+
+Started GET "/categories/1" for ::1 at 2022-12-20 11:35:04 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 12.9ms | Allocations: 689)
+  Rendered layout layouts/application.html.erb (Duration: 93.8ms | Allocations: 2968)
+Completed 200 OK in 149ms (Views: 102.2ms | ActiveRecord: 0.8ms | Allocations: 3721)
+
+
+Started GET "/categories/1/edit" for ::1 at 2022-12-20 11:35:06 -0300
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 4.3ms | Allocations: 962)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 24.0ms | Allocations: 1085)
+  Rendered layout layouts/application.html.erb (Duration: 105.7ms | Allocations: 3368)
+Completed 200 OK in 145ms (Views: 122.6ms | ActiveRecord: 0.7ms | Allocations: 4121)
+
+
+Started PATCH "/categories/1" for ::1 at 2022-12-20 11:35:13 -0300
+Processing by CategoriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Food"}, "commit"=>"Update Category", "id"=>"1"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? AND "categories"."id" != ? LIMIT ?[0m  [["name", "Food"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Update (5.5ms)[0m  [1m[33mUPDATE "categories" SET "name" = ?, "updated_at" = ? WHERE "categories"."id" = ?[0m  [["name", "Food"], ["updated_at", "2022-12-20 14:35:13.616247"], ["id", 1]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (14.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+Redirected to http://localhost:3000/categories/1
+Completed 302 Found in 154ms (ActiveRecord: 22.1ms | Allocations: 3839)
+
+
+Started GET "/categories/1" for ::1 at 2022-12-20 11:35:13 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 21.4ms | Allocations: 730)
+  Rendered layout layouts/application.html.erb (Duration: 112.5ms | Allocations: 3004)
+Completed 200 OK in 253ms (Views: 118.4ms | ActiveRecord: 0.8ms | Allocations: 3758)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:35:16 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (3.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 2.9ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 160.8ms | Allocations: 1526)
+  Rendered layout layouts/application.html.erb (Duration: 400.6ms | Allocations: 3808)
+Completed 200 OK in 487ms (Views: 461.9ms | ActiveRecord: 3.1ms | Allocations: 4100)
+
+
+Started GET "/categories/2" for ::1 at 2022-12-20 11:35:19 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (4.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 1.1ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 23.2ms | Allocations: 710)
+  Rendered layout layouts/application.html.erb (Duration: 137.6ms | Allocations: 2983)
+Completed 200 OK in 233ms (Views: 156.8ms | ActiveRecord: 4.2ms | Allocations: 3736)
+
+
+Started GET "/categories/2/edit" for ::1 at 2022-12-20 11:35:21 -0300
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 14.2ms | Allocations: 959)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 18.9ms | Allocations: 1082)
+  Rendered layout layouts/application.html.erb (Duration: 89.7ms | Allocations: 3365)
+Completed 200 OK in 151ms (Views: 100.0ms | ActiveRecord: 0.8ms | Allocations: 4118)
+
+
+Started PATCH "/categories/2" for ::1 at 2022-12-20 11:35:27 -0300
+Processing by CategoriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Clothes"}, "commit"=>"Update Category", "id"=>"2"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? AND "categories"."id" != ? LIMIT ?[0m  [["name", "Clothes"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Update (17.2ms)[0m  [1m[33mUPDATE "categories" SET "name" = ?, "updated_at" = ? WHERE "categories"."id" = ?[0m  [["name", "Clothes"], ["updated_at", "2022-12-20 14:35:27.564361"], ["id", 2]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (10.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+Redirected to http://localhost:3000/categories/2
+Completed 302 Found in 193ms (ActiveRecord: 29.9ms | Allocations: 3833)
+
+
+Started GET "/categories/2" for ::1 at 2022-12-20 11:35:27 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mCategory Load (1.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 7.2ms | Allocations: 724)
+  Rendered layout layouts/application.html.erb (Duration: 144.3ms | Allocations: 2998)
+Completed 200 OK in 256ms (Views: 158.6ms | ActiveRecord: 1.6ms | Allocations: 3752)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:35:34 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (8.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 52.2ms | Allocations: 1529)
+  Rendered layout layouts/application.html.erb (Duration: 119.7ms | Allocations: 3810)
+Completed 200 OK in 161ms (Views: 125.9ms | ActiveRecord: 8.2ms | Allocations: 4102)
+
+
+Started GET "/categories/4" for ::1 at 2022-12-20 11:35:38 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCategory Load (11.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 8.4ms | Allocations: 695)
+  Rendered layout layouts/application.html.erb (Duration: 105.6ms | Allocations: 2968)
+Completed 200 OK in 211ms (Views: 119.0ms | ActiveRecord: 11.8ms | Allocations: 3721)
+
+
+Started GET "/categories/4/edit" for ::1 at 2022-12-20 11:35:41 -0300
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 14.7ms | Allocations: 953)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 31.1ms | Allocations: 1076)
+  Rendered layout layouts/application.html.erb (Duration: 87.2ms | Allocations: 3359)
+Completed 200 OK in 149ms (Views: 109.5ms | ActiveRecord: 0.7ms | Allocations: 4112)
+
+
+Started PATCH "/categories/4" for ::1 at 2022-12-20 11:35:49 -0300
+Processing by CategoriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Furniture"}, "commit"=>"Update Category", "id"=>"4"}
+  [1m[36mCategory Load (1.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Exists? (10.0ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? AND "categories"."id" != ? LIMIT ?[0m  [["name", "Furniture"], ["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Update (15.7ms)[0m  [1m[33mUPDATE "categories" SET "name" = ?, "updated_at" = ? WHERE "categories"."id" = ?[0m  [["name", "Furniture"], ["updated_at", "2022-12-20 14:35:49.901454"], ["id", 4]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+Redirected to http://localhost:3000/categories/4
+Completed 302 Found in 184ms (ActiveRecord: 36.8ms | Allocations: 3815)
+
+
+Started GET "/categories/4" for ::1 at 2022-12-20 11:35:50 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"4"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 78.5ms | Allocations: 699)
+  Rendered layout layouts/application.html.erb (Duration: 184.4ms | Allocations: 2987)
+Completed 200 OK in 780ms (Views: 679.9ms | ActiveRecord: 0.8ms | Allocations: 3744)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:35:53 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (11.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.6ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.6ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.6ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.6ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 252.6ms | Allocations: 1541)
+  Rendered layout layouts/application.html.erb (Duration: 441.7ms | Allocations: 3834)
+Completed 200 OK in 480ms (Views: 448.7ms | ActiveRecord: 11.8ms | Allocations: 4126)
+
+
+Started GET "/categories/5" for ::1 at 2022-12-20 11:35:56 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 100.3ms | Allocations: 683)
+  Rendered layout layouts/application.html.erb (Duration: 233.7ms | Allocations: 2969)
+Completed 200 OK in 450ms (Views: 246.4ms | ActiveRecord: 0.7ms | Allocations: 3723)
+
+
+Started GET "/categories/5/edit" for ::1 at 2022-12-20 11:35:59 -0300
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 4.3ms | Allocations: 968)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 20.7ms | Allocations: 1091)
+  Rendered layout layouts/application.html.erb (Duration: 119.1ms | Allocations: 3380)
+Completed 200 OK in 206ms (Views: 147.2ms | ActiveRecord: 0.8ms | Allocations: 4133)
+
+
+Started PATCH "/categories/5" for ::1 at 2022-12-20 11:36:04 -0300
+Processing by CategoriesController#update as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Garden"}, "commit"=>"Update Category", "id"=>"5"}
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = ? AND "categories"."id" != ? LIMIT ?[0m  [["name", "Garden"], ["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mCategory Update (11.4ms)[0m  [1m[33mUPDATE "categories" SET "name" = ?, "updated_at" = ? WHERE "categories"."id" = ?[0m  [["name", "Garden"], ["updated_at", "2022-12-20 14:36:05.165142"], ["id", 5]]
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+  [1m[36mTRANSACTION (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:40:in `block in update'
+Redirected to http://localhost:3000/categories/5
+Completed 302 Found in 189ms (ActiveRecord: 18.7ms | Allocations: 3854)
+
+
+Started GET "/categories/5" for ::1 at 2022-12-20 11:36:05 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"5"}
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 0.8ms | Allocations: 17)
+  Rendered categories/show.html.erb within layouts/application (Duration: 62.6ms | Allocations: 724)
+  Rendered layout layouts/application.html.erb (Duration: 137.0ms | Allocations: 2998)
+Completed 200 OK in 224ms (Views: 170.4ms | ActiveRecord: 0.7ms | Allocations: 3752)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:36:07 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 17)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 58.9ms | Allocations: 1511)
+  Rendered layout layouts/application.html.erb (Duration: 124.4ms | Allocations: 3792)
+Completed 200 OK in 156ms (Views: 134.2ms | ActiveRecord: 0.7ms | Allocations: 4084)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:40:16 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 824.7ms | Allocations: 16525)
+  Rendered categories/index.html.erb within layouts/application (Duration: 996.1ms | Allocations: 17980)
+  Rendered layout layouts/application.html.erb (Duration: 1070.5ms | Allocations: 18063)
+Completed 500 Internal Server Error in 1173ms (ActiveRecord: 0.9ms | Allocations: 19055)
+
+
+  
+ActionView::Template::Error (Rails couldn't find a valid model for Book association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.
+
+          raise NameError, msg
+          ^^^^^):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.books.each do |book| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:40:36 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 11.6ms | Allocations: 6004)
+  Rendered categories/index.html.erb within layouts/application (Duration: 84.9ms | Allocations: 7096)
+  Rendered layout layouts/application.html.erb (Duration: 164.6ms | Allocations: 7173)
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 0.8ms | Allocations: 7620)
+
+
+  
+ActionView::Template::Error (Rails couldn't find a valid model for Book association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.
+
+          raise NameError, msg
+          ^^^^^):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |book| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:40:52 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 51.0ms | Allocations: 5711)
+  Rendered categories/index.html.erb within layouts/application (Duration: 97.1ms | Allocations: 7150)
+  Rendered layout layouts/application.html.erb (Duration: 123.7ms | Allocations: 7233)
+Completed 500 Internal Server Error in 203ms (ActiveRecord: 1.2ms | Allocations: 8059)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |exp| %>
+    7:     <p>
+    8:       <%= exp.title %> | <%= link_to "View Expense", expense %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:40:59 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 32.4ms | Allocations: 5633)
+  Rendered categories/index.html.erb within layouts/application (Duration: 210.3ms | Allocations: 7075)
+  Rendered layout layouts/application.html.erb (Duration: 236.2ms | Allocations: 7159)
+Completed 500 Internal Server Error in 345ms (ActiveRecord: 0.8ms | Allocations: 8001)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |exp| %>
+    7:     <p>
+    8:       <%= exp.title %> | <%= link_to "View Expense", expense %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:41:04 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 107.7ms | Allocations: 5633)
+  Rendered categories/index.html.erb within layouts/application (Duration: 453.8ms | Allocations: 7080)
+  Rendered layout layouts/application.html.erb (Duration: 549.5ms | Allocations: 7163)
+Completed 500 Internal Server Error in 680ms (ActiveRecord: 0.8ms | Allocations: 8005)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |exp| %>
+    7:     <p>
+    8:       <%= exp.title %> | <%= link_to "View Expense", exp %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:42:11 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 31.0ms | Allocations: 5662)
+  Rendered categories/index.html.erb within layouts/application (Duration: 102.3ms | Allocations: 7101)
+  Rendered layout layouts/application.html.erb (Duration: 149.9ms | Allocations: 7184)
+Completed 500 Internal Server Error in 242ms (ActiveRecord: 0.8ms | Allocations: 8026)
+
+
+  
+ActionView::Template::Error (undefined method `expense' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expense.each do |exp| %>
+    7:     <p>
+    8:       <%= exp.title %> | <%= link_to "View Expense", exp %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:42:45 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 44.5ms | Allocations: 5633)
+  Rendered categories/index.html.erb within layouts/application (Duration: 139.7ms | Allocations: 7072)
+  Rendered layout layouts/application.html.erb (Duration: 282.3ms | Allocations: 7156)
+Completed 500 Internal Server Error in 417ms (ActiveRecord: 0.8ms | Allocations: 7998)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |exp| %>
+    7:     <p>
+    8:       <%= exp.title %> | <%= link_to "View Expense", exp %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:44:43 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 51.7ms | Allocations: 5634)
+  Rendered categories/index.html.erb within layouts/application (Duration: 349.4ms | Allocations: 7078)
+  Rendered layout layouts/application.html.erb (Duration: 479.4ms | Allocations: 7161)
+Completed 500 Internal Server Error in 629ms (ActiveRecord: 0.8ms | Allocations: 8003)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |exp| %>
+    7:     <p>
+    8:       <%= exp.title %> | <%= link_to "View Expense", expense %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:45:04 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 185.5ms | Allocations: 5633)
+  Rendered categories/index.html.erb within layouts/application (Duration: 557.5ms | Allocations: 7072)
+  Rendered layout layouts/application.html.erb (Duration: 785.4ms | Allocations: 7156)
+Completed 500 Internal Server Error in 1004ms (ActiveRecord: 0.9ms | Allocations: 8003)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>|
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+Started GET "/categories" for ::1 at 2022-12-20 11:50:20 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 32.8ms | Allocations: 5635)
+  Rendered categories/index.html.erb within layouts/application (Duration: 98.3ms | Allocations: 7245)
+  Rendered layout layouts/application.html.erb (Duration: 118.5ms | Allocations: 7328)
+Completed 500 Internal Server Error in 188ms (ActiveRecord: 2.7ms | Allocations: 8168)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:50:30 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 66.6ms | Allocations: 5394)
+  Rendered categories/index.html.erb within layouts/application (Duration: 105.4ms | Allocations: 6377)
+  Rendered layout layouts/application.html.erb (Duration: 149.8ms | Allocations: 6454)
+Completed 500 Internal Server Error in 195ms (ActiveRecord: 0.8ms | Allocations: 6743)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:52:12 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (2.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 12.6ms | Allocations: 141)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.2ms | Allocations: 16)
+  Rendered categories/_category.html.erb (Duration: 0.3ms | Allocations: 16)
+  Rendered categories/index.html.erb within layouts/application (Duration: 188.5ms | Allocations: 2189)
+  Rendered layout layouts/application.html.erb (Duration: 457.5ms | Allocations: 4903)
+Completed 200 OK in 543ms (Views: 503.2ms | ActiveRecord: 2.5ms | Allocations: 5750)
+
+
+Started GET "/categories" for ::1 at 2022-12-20 11:53:11 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 58.4ms | Allocations: 5635)
+  Rendered categories/index.html.erb within layouts/application (Duration: 199.0ms | Allocations: 7050)
+  Rendered layout layouts/application.html.erb (Duration: 323.5ms | Allocations: 7133)
+Completed 500 Internal Server Error in 586ms (ActiveRecord: 0.8ms | Allocations: 7981)
+
+
+  
+ActionView::Template::Error (undefined method `expense' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expense.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:54:12 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 39.5ms | Allocations: 5635)
+  Rendered categories/index.html.erb within layouts/application (Duration: 75.1ms | Allocations: 7050)
+  Rendered layout layouts/application.html.erb (Duration: 99.0ms | Allocations: 7133)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.9ms | Allocations: 7975)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:55:54 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 66.3ms | Allocations: 5197)
+  Rendered categories/index.html.erb within layouts/application (Duration: 109.9ms | Allocations: 6612)
+  Rendered layout layouts/application.html.erb (Duration: 131.9ms | Allocations: 6695)
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 1.5ms | Allocations: 7537)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `expense' for #<ActionView::Base:0x0000000001bda0>
+
+'.freeze;   expense.category.each do |expense| 
+            ^^^^^^^
+Did you mean?  expense_url):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% expense.category.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:56:09 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 34.9ms | Allocations: 4963)
+  Rendered categories/index.html.erb within layouts/application (Duration: 144.9ms | Allocations: 5922)
+  Rendered layout layouts/application.html.erb (Duration: 267.4ms | Allocations: 5999)
+Completed 500 Internal Server Error in 378ms (ActiveRecord: 1.2ms | Allocations: 6288)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `expense' for #<ActionView::Base:0x0000000001c110>
+
+'.freeze;   expense.category.each do |expense| 
+            ^^^^^^^
+Did you mean?  expense_url):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% expense.categories.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:56:29 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 42.2ms | Allocations: 5193)
+  Rendered categories/index.html.erb within layouts/application (Duration: 83.3ms | Allocations: 6611)
+  Rendered layout layouts/application.html.erb (Duration: 134.8ms | Allocations: 6697)
+Completed 500 Internal Server Error in 304ms (ActiveRecord: 0.9ms | Allocations: 7516)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `expenses' for #<ActionView::Base:0x0000000001c4d0>
+
+'.freeze;   expenses.category.each do |expense| 
+            ^^^^^^^^
+Did you mean?  expenses_url):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% expenses.category.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 11:58:01 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/_category.html.erb (Duration: 38.2ms | Allocations: 5635)
+  Rendered categories/index.html.erb within layouts/application (Duration: 76.3ms | Allocations: 7050)
+  Rendered layout layouts/application.html.erb (Duration: 87.9ms | Allocations: 7133)
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 1.8ms | Allocations: 7975)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "Food", created_at: "2022-12-20 14:19:41.427823000 +0000", updated_at: "2022-12-20 14:35:13.616247000 +0000">):
+    3:     <strong>Category:</strong>
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   <% category.expenses.each do |expense| %>
+    7:     <p>
+    8:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+    9:     </p>
+  
+app/views/categories/_category.html.erb:6
+app/views/categories/index.html.erb:7
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-20 12:02:50 -0300
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/_category.html.erb:7
+  Rendered categories/_category.html.erb (Duration: 248.8ms | Allocations: 5932)
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/_category.html.erb:7
+  Rendered categories/_category.html.erb (Duration: 220.7ms | Allocations: 739)
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/_category.html.erb:7
+  Rendered categories/_category.html.erb (Duration: 141.3ms | Allocations: 733)
+  [1m[36mExpense Load (0.7ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/_category.html.erb:7
+  Rendered categories/_category.html.erb (Duration: 293.4ms | Allocations: 681)
+  [1m[36mExpense Load (0.7ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/_category.html.erb:7
+  Rendered categories/_category.html.erb (Duration: 361.9ms | Allocations: 680)
+  Rendered categories/index.html.erb within layouts/application (Duration: 2389.9ms | Allocations: 12310)
+  Rendered layout layouts/application.html.erb (Duration: 3017.9ms | Allocations: 26802)
+Completed 200 OK in 3670ms (Views: 3562.3ms | ActiveRecord: 193.0ms | Allocations: 28765)
+
+
+Started GET "/expenses/1" for ::1 at 2022-12-20 12:03:15 -0300
+Processing by ExpensesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mExpense Load (1.0ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:64:in `set_expense'
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/show.html.erb within layouts/application
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 50.5ms | Allocations: 2055)
+  Rendered expenses/show.html.erb within layouts/application (Duration: 96.6ms | Allocations: 3172)
+  Rendered layout layouts/application.html.erb (Duration: 189.0ms | Allocations: 5629)
+Completed 200 OK in 306ms (Views: 225.8ms | ActiveRecord: 2.0ms | Allocations: 7789)
+
+
+Started GET "/expenses/1" for ::1 at 2022-12-20 12:06:27 -0300
+Processing by ExpensesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mExpense Load (1.3ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:64:in `set_expense'
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/show.html.erb within layouts/application
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 1069.1ms | Allocations: 731)
+  Rendered expenses/show.html.erb within layouts/application (Duration: 1138.2ms | Allocations: 1396)
+  Rendered layout layouts/application.html.erb (Duration: 2046.8ms | Allocations: 3673)
+Completed 200 OK in 2415ms (Views: 2264.0ms | ActiveRecord: 2.3ms | Allocations: 4497)
+
+
+Started GET "/expenses" for ::1 at 2022-12-20 12:06:37 -0300
+Processing by ExpensesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Load (0.9ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:6
+  [1m[36mCategory Load (5.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 24.8ms | Allocations: 733)
+  [1m[36mCategory Load (0.7ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 18.5ms | Allocations: 726)
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:9
+  Rendered expenses/_expense.html.erb (Duration: 12.2ms | Allocations: 725)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 131.5ms | Allocations: 3630)
+  Rendered layout layouts/application.html.erb (Duration: 232.1ms | Allocations: 5911)
+Completed 200 OK in 287ms (Views: 243.2ms | ActiveRecord: 8.2ms | Allocations: 6312)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-20 12:06:40 -0300
+Processing by ExpensesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (1.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 185.3ms | Allocations: 2635)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 215.1ms | Allocations: 2899)
+  Rendered layout layouts/application.html.erb (Duration: 273.6ms | Allocations: 5205)
+Completed 200 OK in 341ms (Views: 284.3ms | ActiveRecord: 1.9ms | Allocations: 5596)
+
+

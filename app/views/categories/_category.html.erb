@@ -1,7 +1,12 @@
 <div id="<%= dom_id category %>">
-  <p>
-    <strong>Name:</strong>
+  <h2>
+    <strong>Category:</strong>
     <%= category.name %>
-  </p>
-
+  </h2>
+  
+  <% category.expenses.each do |expense| %>
+    <p>
+      <%= expense.title %> | <%= link_to "View Expense", expense %>
+    </p>
+  <% end %>
 </div>
