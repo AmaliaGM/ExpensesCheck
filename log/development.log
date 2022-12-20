@@ -124,3 +124,235 @@ Processing by Devise::SessionsController#new as TURBO_STREAM
 Completed 200 OK in 94ms (Views: 74.3ms | Allocations: 4010)
 
 
+Started GET "/" for ::1 at 2022-12-19 21:35:55 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 910)
+  Rendered layout layouts/application.html.erb (Duration: 281.4ms | Allocations: 15464)
+Completed 200 OK in 360ms (Views: 348.6ms | Allocations: 16373)
+
+
+Started GET "/" for ::1 at 2022-12-19 21:36:56 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 881)
+  Rendered layout layouts/application.html.erb (Duration: 267.7ms | Allocations: 3765)
+Completed 200 OK in 771ms (Views: 628.6ms | Allocations: 4581)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-19 21:37:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 18.4ms | Allocations: 543)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 543.1ms | Allocations: 2260)
+  Rendered layout layouts/application.html.erb (Duration: 1694.1ms | Allocations: 4851)
+Completed 200 OK in 3345ms (Views: 2564.8ms | ActiveRecord: 82.2ms | Allocations: 8548)
+
+
+Started POST "/users/sign_in" for ::1 at 2022-12-19 21:37:26 -0300
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+Completed 401 Unauthorized in 68ms (ActiveRecord: 0.0ms | Allocations: 573)
+
+
+Processing by Devise::SessionsController#new as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 3.6ms | Allocations: 131)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 278.6ms | Allocations: 1219)
+  Rendered layout layouts/application.html.erb (Duration: 1015.1ms | Allocations: 3562)
+Completed 200 OK in 1444ms (Views: 1342.3ms | ActiveRecord: 0.0ms | Allocations: 4079)
+
+
+Started GET "/" for ::1 at 2022-12-19 21:38:03 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 120.5ms | Allocations: 3617)
+Completed 200 OK in 167ms (Views: 160.4ms | ActiveRecord: 0.0ms | Allocations: 4426)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-19 21:38:06 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 32.1ms | Allocations: 526)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 167.1ms | Allocations: 2197)
+  Rendered layout layouts/application.html.erb (Duration: 507.5ms | Allocations: 4783)
+Completed 200 OK in 1161ms (Views: 1056.6ms | ActiveRecord: 0.0ms | Allocations: 6079)
+
+
+Started GET "/" for ::1 at 2022-12-19 21:39:10 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 768)
+  Rendered layout layouts/application.html.erb (Duration: 224.1ms | Allocations: 3660)
+Completed 200 OK in 678ms (Views: 638.8ms | ActiveRecord: 0.0ms | Allocations: 4485)
+
+
+Started GET "/" for ::1 at 2022-12-19 21:40:00 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 420)
+  Rendered layout layouts/application.html.erb (Duration: 147.3ms | Allocations: 2787)
+Completed 200 OK in 305ms (Views: 297.0ms | ActiveRecord: 0.0ms | Allocations: 3064)
+
+
+Started GET "/" for ::1 at 2022-12-19 21:40:07 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 58.4ms | Allocations: 741)
+  Rendered layout layouts/application.html.erb (Duration: 119.8ms | Allocations: 3554)
+Completed 200 OK in 237ms (Views: 183.9ms | ActiveRecord: 0.0ms | Allocations: 4363)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-19 21:40:27 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 12.0ms | Allocations: 526)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 203.0ms | Allocations: 2198)
+  Rendered layout layouts/application.html.erb (Duration: 983.4ms | Allocations: 4864)
+Completed 200 OK in 2511ms (Views: 2497.3ms | ActiveRecord: 0.0ms | Allocations: 6334)
+
+
+Started POST "/users/sign_in" for ::1 at 2022-12-19 21:42:06 -0300
+Processing by Devise::SessionsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"tester1@tester.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "tester1@tester.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1617ms (ActiveRecord: 1.2ms | Allocations: 9446)
+
+
+Started GET "/" for ::1 at 2022-12-19 21:42:08 -0300
+Processing by SplashController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:1
+  Rendered splash/index.html.erb within layouts/application (Duration: 31.3ms | Allocations: 1632)
+  Rendered layout layouts/application.html.erb (Duration: 113.6ms | Allocations: 4149)
+Completed 200 OK in 164ms (Views: 149.0ms | ActiveRecord: 1.0ms | Allocations: 4818)
+
+
+Started GET "/users/sign_out" for ::1 at 2022-12-19 21:42:32 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/" for ::1 at 2022-12-19 21:43:49 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:1
+  Rendered splash/index.html.erb within layouts/application (Duration: 46.1ms | Allocations: 1090)
+  Rendered layout layouts/application.html.erb (Duration: 107.0ms | Allocations: 3395)
+Completed 200 OK in 133ms (Views: 119.4ms | ActiveRecord: 1.2ms | Allocations: 3673)
+
+
+Started GET "/users/sign_out" for ::1 at 2022-12-19 21:44:16 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_out" for ::1 at 2022-12-19 21:44:19 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/" for ::1 at 2022-12-19 21:44:48 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:1
+  Rendered splash/index.html.erb within layouts/application (Duration: 123.4ms | Allocations: 1769)
+  Rendered layout layouts/application.html.erb (Duration: 278.6ms | Allocations: 4467)
+Completed 200 OK in 410ms (Views: 403.3ms | ActiveRecord: 0.8ms | Allocations: 5263)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2022-12-19 21:44:52 -0300
+Processing by Devise::SessionsController#destroy as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 69ms (ActiveRecord: 0.8ms | Allocations: 2168)
+
+
+Started GET "/" for ::1 at 2022-12-19 21:44:53 -0300
+Processing by SplashController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 438)
+  Rendered layout layouts/application.html.erb (Duration: 50.7ms | Allocations: 2738)
+Completed 200 OK in 80ms (Views: 70.7ms | ActiveRecord: 0.0ms | Allocations: 3052)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-19 21:45:38 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 2.5ms | Allocations: 194)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 4.1ms | Allocations: 484)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 63.5ms | Allocations: 2490)
+  Rendered layout layouts/application.html.erb (Duration: 196.3ms | Allocations: 4974)
+Completed 200 OK in 263ms (Views: 249.3ms | ActiveRecord: 0.0ms | Allocations: 6471)
+
+
+Started GET "/" for ::1 at 2022-12-20 08:00:58 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2022-12-20 08:01:08 -0300
+  Rendered splash/index.html.erb within layouts/application (Duration: 70.9ms | Allocations: 1270)
+  Rendered layout layouts/application.html.erb (Duration: 492.5ms | Allocations: 15739)
+Completed 200 OK in 555ms (Views: 542.8ms | Allocations: 16693)
+
+
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 574)
+  Rendered layout layouts/application.html.erb (Duration: 131.8ms | Allocations: 14840)
+Completed 200 OK in 161ms (Views: 147.1ms | Allocations: 15437)
+
+
+Started GET "/users/sign_up" for ::1 at 2022-12-20 08:01:21 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_error_messages.html.erb (Duration: 36.6ms | Allocations: 195)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 135.3ms | Allocations: 492)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 313.4ms | Allocations: 2529)
+  Rendered layout layouts/application.html.erb (Duration: 364.6ms | Allocations: 5018)
+Completed 200 OK in 484ms (Views: 412.0ms | ActiveRecord: 11.3ms | Allocations: 8622)
+
+
+Started POST "/users" for ::1 at 2022-12-20 08:01:38 -0300
+Processing by Devise::RegistrationsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"tester2@tester.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "tester2@tester.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (4.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["email", "tester2@tester.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2022-12-20 11:01:38.630912"], ["updated_at", "2022-12-20 11:01:38.630912"]]
+  [1m[36mTRANSACTION (12.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 552ms (ActiveRecord: 18.1ms | Allocations: 6651)
+
+
+Started GET "/" for ::1 at 2022-12-20 08:01:38 -0300
+Processing by SplashController#index as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (5.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:1
+  Rendered splash/index.html.erb within layouts/application (Duration: 38.5ms | Allocations: 1478)
+  Rendered layout layouts/application.html.erb (Duration: 114.6ms | Allocations: 3772)
+Completed 200 OK in 140ms (Views: 117.3ms | ActiveRecord: 5.0ms | Allocations: 4077)
+
+
