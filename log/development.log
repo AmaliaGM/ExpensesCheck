@@ -407,3 +407,63 @@ FOREIGN KEY ("category_id")
   [1m[36mTRANSACTION (6.6ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/categories" for ::1 at 2022-12-20 12:27:39 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CategoriesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  Rendered categories/index.html.erb within layouts/application (Duration: 141.6ms | Allocations: 1863)
+  Rendered layout layouts/application.html.erb (Duration: 763.3ms | Allocations: 38040)
+Completed 200 OK in 970ms (Views: 826.0ms | ActiveRecord: 1.1ms | Allocations: 41932)
+
+
+Started GET "/categories/new" for ::1 at 2022-12-20 12:27:47 -0300
+Processing by CategoriesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 191.7ms | Allocations: 3766)
+  Rendered categories/new.html.erb within layouts/application (Duration: 282.2ms | Allocations: 4112)
+  Rendered layout layouts/application.html.erb (Duration: 399.6ms | Allocations: 6526)
+Completed 200 OK in 511ms (Views: 424.2ms | ActiveRecord: 24.0ms | Allocations: 10495)
+
+
+Started POST "/categories" for ::1 at 2022-12-20 12:27:56 -0300
+Processing by CategoriesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"HOME"}, "commit"=>"Create Category"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mCategory Create (4.0ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "HOME"], ["created_at", "2022-12-20 15:27:56.809464"], ["updated_at", "2022-12-20 15:27:56.809464"]]
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (36.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:27:in `block in create'
+Redirected to http://localhost:3000/categories/1
+Completed 302 Found in 856ms (ActiveRecord: 40.5ms | Allocations: 3857)
+
+
+Started GET "/categories/1" for ::1 at 2022-12-20 12:27:58 -0300
+Processing by CategoriesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mCategory Load (2.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/_category.html.erb (Duration: 175.4ms | Allocations: 6009)
+  Rendered categories/show.html.erb within layouts/application (Duration: 265.8ms | Allocations: 7078)
+  Rendered layout layouts/application.html.erb (Duration: 379.7ms | Allocations: 7158)
+Completed 500 Internal Server Error in 516ms (ActiveRecord: 2.2ms | Allocations: 9994)
+
+
+  
+ActionView::Template::Error (undefined method `expenses' for #<Category id: 1, name: "HOME", created_at: "2022-12-20 15:27:56.809464000 +0000", updated_at: "2022-12-20 15:27:56.809464000 +0000">):
+    4:     <%= category.name %>
+    5:   </h2>
+    6:   
+    7:   <% category.expenses.each do |expense| %>
+    8:     <p>
+    9:       <%= expense.title %> | <%= link_to "View Expense", expense %>
+   10:     </p>
+  
+app/views/categories/_category.html.erb:7
+app/views/categories/show.html.erb:3
