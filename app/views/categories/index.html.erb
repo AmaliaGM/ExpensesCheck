@@ -4,17 +4,23 @@
 
 <div id="categories">
   <% @categories.each do |category| %>
-    <%= category.icon %>
+    <% if category.icon %>
+    <p><%= category.icon %></p>
+    <% end %>
     <%= category.name %>
     <p>
     <%= link_to "Show this category", category %>
     </p>
     <% category.expenses.each do |expense| %>
-      <%= [expense.price].sum %>
+      <%= expense.price %>
       <%= link_to "View Expense", expense %>
-
+      <br>
+      <br>
       <% end %>
       </div>
     <% end %>
 
 <%= link_to "New category", new_category_path %>
+<br>
+<%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+

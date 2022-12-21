@@ -15,7 +15,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_20_213301) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-   
+    t.string "icon"
   end
 
   create_table "expenses", force: :cascade do |t|

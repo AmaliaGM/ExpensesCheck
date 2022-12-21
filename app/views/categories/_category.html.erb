@@ -1,15 +1,20 @@
 <div id="<%= dom_id category %>">
   <% if category.icon %>
   <p><%= category.icon %></p>
-  <% end %>
+  <% end%>
   <h2>
     <strong>Category:</strong>   
     <%= category.name %>
   </h2>
   
+  <p>
+  <strong>Total Spent:</strong> 
+  <p><strong><%= number_to_currency(category.expenses.sum(:price)) %></strong></p>
+  </p>
   <% category.expenses.each do |expense| %>
-    <p>
+      <p>
       <%= expense.title %> | <%= expense.price %>
     </p>
+    
   <% end %>
 </div>

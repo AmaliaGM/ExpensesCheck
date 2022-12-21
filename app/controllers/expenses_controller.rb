@@ -1,4 +1,5 @@
 class ExpensesController < ApplicationController
+  before_action :authenticate_user!, except: [:welcome, :about]
   before_action :set_expense, only: %i[ show edit update destroy ]
   before_action :set_categories
 
@@ -23,7 +24,7 @@ class ExpensesController < ApplicationController
   # POST /expenses or /expenses.json
   def create
     @expense = Expense.new(expense_params)
-
+    
     respond_to do |format|
       if @expense.save
         format.html { redirect_to expense_url(@expense), notice: "Expense was successfully created." }
