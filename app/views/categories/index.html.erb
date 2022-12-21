@@ -11,13 +11,11 @@
     
     <p><strong><%= number_to_currency(category.expenses.sum(:price)) %></strong>
     </p>
-    <%= link_to "View Expense", category %>
+    <%= link_to "View Expense", category %><br>
+    <br>
     <% end %>
-    <% @categories.each do |expense| %>
-      <br>
-      <br>
-      <% end %>
       </div>
+      <br>
 
 <%= link_to "New category", new_category_path %>
 <br>
