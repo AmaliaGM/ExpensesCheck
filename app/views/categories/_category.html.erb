@@ -1,4 +1,7 @@
 <div id="<%= dom_id category %>">
+  <% if category.icon %>
+  <p><%= category.icon %></p>
+  <% end %>
   <h2>
     <strong>Category:</strong>   
     <%= category.name %>

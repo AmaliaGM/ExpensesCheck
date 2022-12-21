@@ -4,6 +4,7 @@
 
 <div id="categories">
   <% @categories.each do |category| %>
+    <%= category.icon %>
     <%= category.name %>
     <p>
     <%= link_to "Show this category", category %>
