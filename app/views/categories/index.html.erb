@@ -7,18 +7,17 @@
     <% if category.icon %>
     <p><%= category.icon %></p>
     <% end %>
-    <%= category.name %>
-    <p>
-    <%= link_to "Show this category", category %>
+    <%=  link_to category.name, category %>
+    
+    <p><strong><%= number_to_currency(category.expenses.sum(:price)) %></strong>
     </p>
-    <% category.expenses.each do |expense| %>
-      <%= expense.price %>
-      <%= link_to "View Expense", expense %>
+    <%= link_to "View Expense", category %>
+    <% end %>
+    <% @categories.each do |expense| %>
       <br>
       <br>
       <% end %>
       </div>
-    <% end %>
 
 <%= link_to "New category", new_category_path %>
 <br>

@@ -15075,3 +15075,206 @@ Processing by CategoriesController#show as HTML
 Completed 200 OK in 10281ms (Views: 8189.6ms | ActiveRecord: 59.8ms | Allocations: 16845)
 
 
+Started GET "/categories" for ::1 at 2022-12-21 15:28:57 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (2.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (1.2ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (2.1ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (1.4ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (2.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (4.4ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (1.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (2.5ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (1.4ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (2.4ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:15
+  Rendered categories/index.html.erb within layouts/application (Duration: 4643.8ms | Allocations: 13052)
+  Rendered layout layouts/application.html.erb (Duration: 5400.9ms | Allocations: 15756)
+Completed 200 OK in 6626ms (Views: 6277.6ms | ActiveRecord: 28.2ms | Allocations: 18174)
+
+
+Started GET "/categories/new" for ::1 at 2022-12-21 15:29:21 -0300
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 100.8ms | Allocations: 1253)
+  Rendered categories/new.html.erb within layouts/application (Duration: 351.5ms | Allocations: 1529)
+  Rendered layout layouts/application.html.erb (Duration: 573.0ms | Allocations: 3837)
+Completed 200 OK in 859ms (Views: 735.8ms | ActiveRecord: 1.0ms | Allocations: 5692)
+
+
+Started GET "/categories" for ::1 at 2022-12-21 15:30:31 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (1.1ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (2.0ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (2.3ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (7.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (6.9ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (1.6ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (3.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (10.5ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.9ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.7ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:15
+  Rendered categories/index.html.erb within layouts/application (Duration: 1893.6ms | Allocations: 12271)
+  Rendered layout layouts/application.html.erb (Duration: 1954.3ms | Allocations: 14584)
+Completed 200 OK in 2013ms (Views: 1928.3ms | ActiveRecord: 44.2ms | Allocations: 16251)
+
+
+Started GET "/categories" for ::1 at 2022-12-21 15:30:54 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (1.3ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:12
+  Rendered categories/index.html.erb within layouts/application (Duration: 147.3ms | Allocations: 7162)
+  Rendered layout layouts/application.html.erb (Duration: 167.0ms | Allocations: 7245)
+Completed 500 Internal Server Error in 298ms (ActiveRecord: 3.4ms | Allocations: 9444)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `expense' for #<ActionView::Base:0x000000000ab6f8>
+
+      '.freeze;@output_buffer.append=( link_to "View Expense", expense );@output_buffer.safe_append='
+                                                               ^^^^^^^
+Did you mean?  expense_url):
+    12:     <p><strong><%= number_to_currency(category.expenses.sum(:price)) %></strong></p>
+    13:     <%= link_to "Show this category", category %>
+    14:     </p>
+    15:       <%= link_to "View Expense", expense %>
+    16:       <br>
+    17:       <br>
+    18:       </div>
+  
+app/views/categories/index.html.erb:15
+app/views/categories/index.html.erb:6
+Started GET "/categories" for ::1 at 2022-12-21 15:31:20 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (2.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.9ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (1.1ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.9ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (2.0ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.9ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (2.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (2.0ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.9ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (10.0ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:15
+  [1m[36mExpense Sum (1.1ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:12
+  [1m[36mExpense Load (0.8ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:15
+  Rendered categories/index.html.erb within layouts/application (Duration: 2933.6ms | Allocations: 13064)
+  Rendered layout layouts/application.html.erb (Duration: 3173.8ms | Allocations: 15765)
+Completed 200 OK in 3468ms (Views: 3276.7ms | ActiveRecord: 30.9ms | Allocations: 18086)
+
+
+Started GET "/categories" for ::1 at 2022-12-21 15:33:11 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:12
+  Rendered categories/index.html.erb within layouts/application (Duration: 2000.2ms | Allocations: 7272)
+  Rendered layout layouts/application.html.erb (Duration: 2566.4ms | Allocations: 7355)
+Completed 500 Internal Server Error in 3626ms (ActiveRecord: 2.8ms | Allocations: 9665)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `expense' for #<ActionView::Base:0x000000000abba8>
+
+      '.freeze;@output_buffer.append=( link_to "View Expense", expense );@output_buffer.safe_append='
+                                                               ^^^^^^^
+Did you mean?  expense_url):
+    12:     <p><strong><%= number_to_currency(category.expenses.sum(:price)) %></strong></p>
+    13:     <%= link_to "Show this category", category %>
+    14:     </p>
+    15:       <%= link_to "View Expense", expense %>
+    16:       <br>
+    17:       <br>
+    18:       </div>
+  
+app/views/categories/index.html.erb:15
+app/views/categories/index.html.erb:6
