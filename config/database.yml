@@ -90,4 +90,7 @@ test:
 #
 production:
   <<: *default
-url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  database: expenses_check_test
+  username: postgres
+  password: amalia
