@@ -64,7 +64,7 @@ development:
 test:
   <<: *default
   database: expenses_check_test
-  # adapter: postgresql
+  host: 127.0.0.1
   username: postgres
   password: amalia
 
@@ -90,4 +90,4 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+url: <%= ENV['DATABASE_URL'] %>
