@@ -1,0 +1,3 @@
+USER_NAME = 'amalia1234'
+PASSWORD = 'amalia'
+DATABASE_URL = 'postgres://amalia1234:MuZ6q280v9gn1pSoQZnShejpwCK5SAXL@dpg-cei4ltla499fabgro4kg-a/expenses_check'

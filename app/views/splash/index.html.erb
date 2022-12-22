@@ -11,7 +11,6 @@
   <p class="fw-bold"> Welcome <%= current_user.email %> ! </p>
  <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %> 
  <% else %>
- <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-success" %><br>
- <br>
+ <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-success" %>
  <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-outline-success" %>
 <% end %>
