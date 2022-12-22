@@ -20,5 +20,9 @@
 <%= link_to "New category", new_category_path, class: "btn btn-outline-light" %>
 <br>
 <br>
-<%= link_to "Sign out", destroy_user_session_path, method: :delete %> 
+<% if user_signed_in? %>
+<%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %> 
+<% else %>
+<%= link_to "Splash", splash_index_path, class: "btn btn-outline-success" %><br>
+<% end %>
 </div>

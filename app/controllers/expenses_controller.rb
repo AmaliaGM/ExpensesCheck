@@ -1,5 +1,5 @@
 class ExpensesController < ApplicationController
-  before_action :authenticate_user!, except: [:welcome, :about, :splash]
+  before_action :authenticate_user!, except: [:splash]
   before_action :set_expense, only: %i[ show edit update destroy ]
   before_action :set_categories
 
