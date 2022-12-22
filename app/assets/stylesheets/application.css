@@ -9,8 +9,28 @@ body {
     margin-right: 5%;
 }
 
+.hstack {
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+
+.gap-3{
+    margin: 2%;
+}
+
 .container-fluid {
     font-size: 25px;
+    justify-content: space-between;
+}
+
+a.navbar {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .bg-primary {
@@ -19,4 +39,11 @@ body {
 
 .container-fluid {
     justify-content: space-between;
+}
+
+.footer {
+    margin-top: 5%;
+    background-color: rgb(62, 182, 62);
+    padding: 4%;
+    text-align: center;
 }

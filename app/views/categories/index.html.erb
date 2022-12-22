@@ -4,20 +4,21 @@
 
 <div id="categories">
   <% @categories.each do |category| %>
-    <% if category.icon %>
-    <p><%= category.icon %></p>
-    <% end %>
-    <%=  link_to category.name, category %>
+    <div class="hstack gap-3">
+  <div><%= category.icon %><%=  link_to category.name, category %>
+  </div>
+  <div class="ms-auto"><%= number_to_currency(category.expenses.sum(:price)) %></div>
+  </div>
+  </div>
     
-    <p><strong><%= number_to_currency(category.expenses.sum(:price)) %></strong>
-    </p>
-    <%= link_to "View Expense", category %><br>
+    <%= link_to "View Expense", category, class: 'gap-3' %><br>
     <br>
+    </div>
     <% end %>
-      </div>
-      <br>
-
-<%= link_to "New category", new_category_path %>
+    <br>
+<div class="footer">
+<%= link_to "New category", new_category_path, class: "btn btn-outline-light" %>
 <br>
-<%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
-
+<br>
+<%= link_to "Sign out", destroy_user_session_path, method: :delete %> 
+</div>

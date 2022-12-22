@@ -10,7 +10,8 @@
     </p>
   <% end %>
 </div>
-
-<%= link_to "New expense", new_expense_path %>
+<div class= "footer">
+<%= link_to "New expense", new_expense_path, class: "btn btn-outline-light" %>
 <br>
-<%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+<%= link_to "Sign out", destroy_user_session_path, method: :delete %>
+</div>
