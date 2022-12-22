@@ -25,10 +25,10 @@ development:
   <<: *default
   database: expenses_check
   # encoding: unicode
-  username: amalia1234
-  password: MuZ6q280v9gn1pSoQZnShejpwCK5SAXL
-   host: localhost
-   port: 5432
+  username: postgres
+  password: amalia
+  host: localhost
+  port: 5432
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -47,7 +47,7 @@ development:
 
   # The TCP port the server listens on. Defaults to 5432.
   # If your server runs on a different port number, change accordingly.
-   port: 5432
+  port: 5432
 
   # Schema search path. The server defaults to $user,public
   #schema_search_path: myapp,sharedapp,public
@@ -65,8 +65,8 @@ test:
   <<: *default
   database: expenses_check_test
   # adapter: postgresql
-  username: amalia1234
-  password: MuZ6q280v9gn1pSoQZnShejpwCK5SAXL
+  username: postgres
+  password: amalia
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
