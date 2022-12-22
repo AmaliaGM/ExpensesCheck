@@ -50,9 +50,19 @@ a {
 
 .mb-5 {
     text-align: center;
-    margin: 10%;
+    margin: 5%;
 }
 
 .btn-outline-primary {
+    margin-left: 40%;
+}
+
+.bi.bi-cash-stack {
+    color: rgb(62, 182, 62);
+    font-size: 60px;
     margin-left: 45%;
+}
+
+.btn-outline-dark {
+    border: none;
 }

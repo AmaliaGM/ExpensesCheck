@@ -1,13 +1,17 @@
 <br>
 <% if user_signed_in? %>
  <p class="fw-bold"> Welcome <%= current_user.email %> ! </p>
- <br>
-  <%= link_to "Sign out", destroy_user_session_path, method: :delete %> 
-<% else %>
-  <%= link_to "Sign in", new_user_session_path %>
-  <%= link_to 'Sign Up', new_user_registration_path %>
-<% end %>
-<div class="shadow-lg p-3 mb-5 bg-body rounded">
-<h1 class="text-capitalize">ExpensesCheck!</h1></div>
 
-<%= link_to "Go to categories", categories_path, class: "btn btn-outline-primary" %>
+ <div class="sticky-top">
+ <i class="bi bi-cash-stack"></i></div>
+ <div class="shadow-lg p-3 mb-5 bg-body rounded">
+ <h1 class="text-capitalize">ExpensesCheck!</h1></div>
+ 
+ <%= link_to "Go to categories", categories_path, class: "btn btn-outline-primary" %>
+ <br>
+ <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %> 
+<% else %>
+ <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-success" %><br>
+ <br>
+ <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-outline-success" %>
+<% end %>
