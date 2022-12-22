@@ -25,8 +25,8 @@ development:
   <<: *default
   database: expenses_check
   # encoding: unicode
-  username: postgres
-  password: amalia
+  # username: postgres
+  # password: amalia
   host: localhost
   port: 5432
 
@@ -90,4 +90,4 @@ test:
 #
 production:
   <<: *default
-  url: 'postgres://amalia1234:MuZ6q280v9gn1pSoQZnShejpwCK5SAXL@dpg-cei4ltla499fabgro4kg-a/expenses_check'
+  url: <%= ENV['DATABASE_URL'] %>
