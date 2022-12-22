@@ -1,4 +1,4 @@
-require "test_helper"
+require 'test_helper'
 
 class UserTest < ActiveSupport::TestCase
   setup do
@@ -20,5 +20,4 @@ class UserTest < ActiveSupport::TestCase
     assert_text 'User was successfully created'
     click_on 'Back'
   end
-
 end

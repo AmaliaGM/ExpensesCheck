@@ -7,7 +7,7 @@ services:
     name: rails
     env: ruby
     buildCommand: './bin/render-build.sh'
-    startCommand: bundle exec puma -C config/puma.rb
+    startCommand: rails s
     envVars:
       - key: RAILS_MASTER_KEY
         sync: false
