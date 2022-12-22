@@ -11,33 +11,31 @@ class ExpensesTest < ApplicationSystemTestCase
   end
 
   test "should create expense" do
-    visit expenses_path
-    click_on "New expense"
+    visit expense_path
+    click_on "Add expense"
 
     fill_in "Price", with: @expense.price
     fill_in "Title", with: @expense.title
     click_on "Create Expense"
 
-    assert_text "Expense successfully created"
-    click_on "Back"
+    assert_text "Expense was successfully created"
   end
 
   test "should update Expense" do
-    visit expense_url(@expense)
+    visit expense_path(@expense)
     click_on "Edit this expense", match: :first
 
     fill_in "Price", with: @expense.price
     fill_in "Title", with: @expense.title
     click_on "Update Expense"
 
-    assert_text "Expense successfully updated"
-    click_on "Back"
+    assert_text "Expense was successfully updated"
   end
 
   test "should destroy Expense" do
-    visit expense_url(@expense)
+    visit expense_path(@expense)
     click_on "Destroy this expense", match: :first
 
-    assert_text "Expense successfully destroyed"
+    assert_text "Expense was successfully destroyed"
   end
 end

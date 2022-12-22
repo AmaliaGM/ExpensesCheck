@@ -9,9 +9,12 @@
 <div class="hstack gap-3">
   <div class="bg-light border">Total Spent:</div>
   <div class="bg-light border ms-auto"><%= number_to_currency(category.expenses.sum(:price)) %>
+  
   </div>
-</div>
+  </div>
+  <%= link_to "Add expense", new_expense_path, class: 'gap-3' %>
 <br>
+
 <% category.expenses.each do |expense| %>
 <div class="hstack gap-3">
   <%= expense.title %>
