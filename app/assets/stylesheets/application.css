@@ -1,68 +1,64 @@
 body {
-    margin: 5%;
+  margin: 5%;
 }
 
 .bi.bi-search::before {
-    content: "\f52a";
-    color: white;
-    font-size: x-large;
-    margin-right: 5%;
+  content: "\f52a";
+  color: white;
+  font-size: x-large;
+  margin-right: 5%;
 }
 
 .hstack {
-    font-size: 20px;
-    font-weight: bold;
-    color: grey;
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
 }
 
-.gap-3{
-    margin: 2%;
+.gap-3 {
+  margin: 2%;
 }
 
 .container-fluid {
-    font-size: 25px;
-    justify-content: space-between;
+  font-size: 25px;
+  justify-content: space-between;
 }
 
 a.navbar {
-    text-align: center;
+  text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .bg-primary {
-    padding-right: 4%;
-}
-
-.container-fluid {
-    justify-content: space-between;
+  padding-right: 4%;
 }
 
 .footer {
-    margin-top: 5%;
-    background-color: rgb(62, 182, 62);
-    padding: 4%;
-    text-align: center;
+  margin-top: 5%;
+  background-color: rgb(62, 182, 62);
+  padding: 4%;
+  text-align: center;
 }
 
 .mb-5 {
-    text-align: center;
-    margin: 5%;
+  text-align: center;
+  margin: 5%;
 }
 
 .btn-outline-primary {
-    margin-left: 40%;
+  margin-left: 40%;
 }
 
 .bi.bi-cash-stack {
-    color: rgb(62, 182, 62);
-    font-size: 60px;
-    margin-left: 45%;
+  color: rgb(62, 182, 62);
+  font-size: 60px;
+  margin-left: 45%;
 }
 
 .btn-outline-dark {
-    border: none;
+  border: none;
 }
