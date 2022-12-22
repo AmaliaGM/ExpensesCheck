@@ -1,59 +1,21 @@
+databases:
+  -name: postgres
+  ipAllowList: []
+
 services:
   - type: web
-    name: expenses-check-web
+    name: rails
     env: ruby
-    region: frankfurt # or oregon
-    plan: free
-    numInstances: 1
-    buildCommand: ./bin/render-build.sh
-    startCommand: REDIS_URL="redis://${REDIS_HOST}" bundle exec puma -C config/puma.rb
-    domains:
-      - https://expensescheck.onrender.com/ # replace with your domain name
-    envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: expenses-check-db
-          property: connectionString
-      - key: REDIS_HOST
-        fromService:
-          name: expenses-check-redis
-          type: pserv
-          property: hostport
-      - key: RAILS_MASTER_KEY
-        sync: false
-
-  - type: worker
-    name: expenses-check-sidekiq
-    env: ruby
-    region: frankfurt # or oregon
-    plan: free
-    buildCommand: ./bin/render-build.sh
+    buildCommand: './bin/render-build.sh'
     startCommand: bundle exec puma -C config/puma.rb
     envVars:
-      - key: DATABASE_URL
-        fromDatabase:
-          name: expenses-check-db
-          property: connectionString
-      - key: REDIS_HOST
-        fromService:
-          name: expenses-check-redis
-          type: pserv
-          property: hostport
       - key: RAILS_MASTER_KEY
         sync: false
-
-  - type: pserv
-    name: expenses-check-redis
-    env: docker
-    region: frankfurt # or oregon
-    repo: https://github.com/AmaliaGM/ExpensesCheck.git
-    numInstances: 1
-    disk:
-      name: myapp-redis-data
-      mountPath: /var/lib/redis
-      sizeGB: 1
-
-databases:
-  - name: expenses-check
-    plan: free
-    region: frankfurt # or oregon
+      - key: DATABASE_URL
+        fromDatabase:
+          name: postgres
+          property: connectionString
+  - type: redis
+    name: redis
+    ipAllowList: []
+    memoryPolicy: neoviction
