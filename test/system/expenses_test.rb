@@ -6,19 +6,19 @@ class ExpensesTest < ApplicationSystemTestCase
   end
 
   test "visiting the index" do
-    visit expenses_url
+    visit expenses_path
     assert_selector "h1", text: "Expenses"
   end
 
   test "should create expense" do
-    visit expenses_url
+    visit expenses_path
     click_on "New expense"
 
     fill_in "Price", with: @expense.price
     fill_in "Title", with: @expense.title
     click_on "Create Expense"
 
-    assert_text "Expense was successfully created"
+    assert_text "Expense successfully created"
     click_on "Back"
   end
 
@@ -30,7 +30,7 @@ class ExpensesTest < ApplicationSystemTestCase
     fill_in "Title", with: @expense.title
     click_on "Update Expense"
 
-    assert_text "Expense was successfully updated"
+    assert_text "Expense successfully updated"
     click_on "Back"
   end
 
@@ -38,6 +38,6 @@ class ExpensesTest < ApplicationSystemTestCase
     visit expense_url(@expense)
     click_on "Destroy this expense", match: :first
 
-    assert_text "Expense was successfully destroyed"
+    assert_text "Expense successfully destroyed"
   end
 end

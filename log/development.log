@@ -23312,3 +23312,721 @@ Processing by ExpensesController#index as HTML
 Completed 200 OK in 722ms (Views: 669.3ms | ActiveRecord: 6.1ms | Allocations: 10707)
 
 
+Started GET "/splash" for ::1 at 2022-12-22 01:27:12 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:1
+  Rendered splash/index.html.erb within layouts/application (Duration: 85.8ms | Allocations: 1818)
+  Rendered layout layouts/application.html.erb (Duration: 110.1ms | Allocations: 2881)
+Completed 200 OK in 147ms (Views: 132.2ms | ActiveRecord: 1.1ms | Allocations: 3522)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:35:55 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 193.9ms | Allocations: 2030)
+  Rendered layout layouts/application.html.erb (Duration: 482.2ms | Allocations: 3274)
+Completed 200 OK in 999ms (Views: 993.2ms | ActiveRecord: 9.5ms | Allocations: 4086)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:36:08 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 84.5ms | Allocations: 1832)
+  Rendered layout layouts/application.html.erb (Duration: 155.9ms | Allocations: 3076)
+Completed 200 OK in 243ms (Views: 231.9ms | ActiveRecord: 0.9ms | Allocations: 3892)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:36:19 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 286.5ms | Allocations: 7440)
+  Rendered layout layouts/application.html.erb (Duration: 385.7ms | Allocations: 7523)
+Completed 500 Internal Server Error in 575ms (ActiveRecord: 0.9ms | Allocations: 8318)
+
+
+  
+ActionView::Template::Error (undefined method `email!' for #<User id: 2, email: "tester2@tester.com", created_at: "2022-12-20 11:01:38.630912000 +0000", updated_at: "2022-12-20 11:01:38.630912000 +0000">
+Did you mean?  email
+               email?
+               email=):
+    1: <br>
+    2: <% if user_signed_in? %>
+    3:  <div> Welcome <%= current_user.email! %> </div>
+    4:  <br>
+    5:   <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+    6: <% else %>
+  
+app/views/splash/index.html.erb:3
+app/controllers/splash_controller.rb:3:in `index'
+Started GET "/splash" for ::1 at 2022-12-22 01:36:31 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (32.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 551.7ms | Allocations: 6870)
+  Rendered layout layouts/application.html.erb (Duration: 1198.9ms | Allocations: 6950)
+Completed 500 Internal Server Error in 2022ms (ActiveRecord: 32.2ms | Allocations: 7204)
+
+
+  
+ActionView::Template::Error (undefined method `email!' for #<User id: 2, email: "tester2@tester.com", created_at: "2022-12-20 11:01:38.630912000 +0000", updated_at: "2022-12-20 11:01:38.630912000 +0000">
+Did you mean?  email
+               email?
+               email=):
+    1: <br>
+    2: <% if user_signed_in? %>
+    3:  <div> Welcome <%= current_user.email'!' %> </div>
+    4:  <br>
+    5:   <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+    6: <% else %>
+  
+app/views/splash/index.html.erb:3
+app/controllers/splash_controller.rb:3:in `index'
+Started GET "/splash" for ::1 at 2022-12-22 01:36:49 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 724.5ms | Allocations: 6870)
+  Rendered layout layouts/application.html.erb (Duration: 1120.6ms | Allocations: 6947)
+Completed 500 Internal Server Error in 1468ms (ActiveRecord: 0.8ms | Allocations: 7181)
+
+
+  
+ActionView::Template::Error (undefined method `email!' for #<User id: 2, email: "tester2@tester.com", created_at: "2022-12-20 11:01:38.630912000 +0000", updated_at: "2022-12-20 11:01:38.630912000 +0000">
+Did you mean?  email
+               email?
+               email=):
+    1: <br>
+    2: <% if user_signed_in? %>
+    3:  <div> Welcome <%= current_user.email %>! </div>
+    4:  <br>
+    5:   <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+    6: <% else %>
+  
+app/views/splash/index.html.erb:3
+app/controllers/splash_controller.rb:3:in `index'
+Started GET "/splash" for ::1 at 2022-12-22 01:37:13 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 183.4ms | Allocations: 1833)
+  Rendered layout layouts/application.html.erb (Duration: 422.8ms | Allocations: 3083)
+Completed 200 OK in 1588ms (Views: 1579.2ms | ActiveRecord: 0.9ms | Allocations: 3880)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:45:18 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 340.4ms | Allocations: 2008)
+  Rendered layout layouts/application.html.erb (Duration: 414.1ms | Allocations: 3252)
+Completed 200 OK in 467ms (Views: 452.9ms | ActiveRecord: 66.1ms | Allocations: 4064)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:46:18 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 221.2ms | Allocations: 1403)
+  Rendered layout layouts/application.html.erb (Duration: 608.6ms | Allocations: 3796)
+Completed 200 OK in 1037ms (Views: 1025.4ms | ActiveRecord: 0.9ms | Allocations: 4074)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:46:35 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 148.8ms | Allocations: 1309)
+  Rendered layout layouts/application.html.erb (Duration: 933.2ms | Allocations: 3619)
+Completed 200 OK in 1112ms (Views: 1091.1ms | ActiveRecord: 1.0ms | Allocations: 3877)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:46:50 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 143.5ms | Allocations: 1297)
+  Rendered layout layouts/application.html.erb (Duration: 607.7ms | Allocations: 3609)
+Completed 200 OK in 853ms (Views: 789.1ms | ActiveRecord: 0.9ms | Allocations: 3868)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:48:05 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 97.0ms | Allocations: 1651)
+  Rendered layout layouts/application.html.erb (Duration: 144.4ms | Allocations: 2899)
+Completed 200 OK in 228ms (Views: 218.4ms | ActiveRecord: 1.0ms | Allocations: 3696)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:51:11 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 671.3ms | Allocations: 1647)
+  Rendered layout layouts/application.html.erb (Duration: 1271.3ms | Allocations: 2895)
+Completed 200 OK in 2086ms (Views: 2078.6ms | ActiveRecord: 0.9ms | Allocations: 3711)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:52:20 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 236.3ms | Allocations: 1640)
+  Rendered layout layouts/application.html.erb (Duration: 1302.3ms | Allocations: 3000)
+Completed 200 OK in 1923ms (Views: 1915.6ms | ActiveRecord: 0.9ms | Allocations: 3821)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:53:16 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 559.7ms | Allocations: 1147)
+  Rendered layout layouts/application.html.erb (Duration: 1359.7ms | Allocations: 3548)
+Completed 200 OK in 1584ms (Views: 1576.0ms | ActiveRecord: 1.0ms | Allocations: 3825)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:53:45 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 168.9ms | Allocations: 1140)
+  Rendered layout layouts/application.html.erb (Duration: 3286.3ms | Allocations: 3456)
+Completed 200 OK in 3739ms (Views: 3726.8ms | ActiveRecord: 0.8ms | Allocations: 3715)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:56:20 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 53.1ms | Allocations: 1131)
+  Rendered layout layouts/application.html.erb (Duration: 625.6ms | Allocations: 3445)
+Completed 200 OK in 730ms (Views: 714.7ms | ActiveRecord: 0.8ms | Allocations: 3703)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 01:57:01 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 147.4ms | Allocations: 1654)
+  Rendered layout layouts/application.html.erb (Duration: 460.4ms | Allocations: 2901)
+Completed 200 OK in 696ms (Views: 685.8ms | ActiveRecord: 0.9ms | Allocations: 3698)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:00:46 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 36.0ms | Allocations: 1646)
+  Rendered layout layouts/application.html.erb (Duration: 124.0ms | Allocations: 2893)
+Completed 200 OK in 186ms (Views: 177.8ms | ActiveRecord: 1.3ms | Allocations: 3709)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:00:52 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 720.4ms | Allocations: 1240)
+  Rendered layout layouts/application.html.erb (Duration: 1071.0ms | Allocations: 2153)
+Completed 200 OK in 1910ms (Views: 1868.3ms | ActiveRecord: 0.9ms | Allocations: 2430)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:02:09 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 689.0ms | Allocations: 1662)
+  Rendered layout layouts/application.html.erb (Duration: 1151.3ms | Allocations: 2909)
+Completed 200 OK in 1865ms (Views: 1752.5ms | ActiveRecord: 0.9ms | Allocations: 3706)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:03:39 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 313.6ms | Allocations: 1147)
+  Rendered layout layouts/application.html.erb (Duration: 979.4ms | Allocations: 3550)
+Completed 200 OK in 1193ms (Views: 1183.8ms | ActiveRecord: 0.8ms | Allocations: 3827)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:04:01 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 235.1ms | Allocations: 1144)
+  Rendered layout layouts/application.html.erb (Duration: 783.6ms | Allocations: 3468)
+Completed 200 OK in 894ms (Views: 886.6ms | ActiveRecord: 0.8ms | Allocations: 3726)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:04:23 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 458.1ms | Allocations: 1254)
+  Rendered layout layouts/application.html.erb (Duration: 795.2ms | Allocations: 3569)
+Completed 200 OK in 1032ms (Views: 1022.8ms | ActiveRecord: 0.9ms | Allocations: 3828)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:06:25 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 48.0ms | Allocations: 1659)
+  Rendered layout layouts/application.html.erb (Duration: 183.7ms | Allocations: 2911)
+Completed 200 OK in 310ms (Views: 299.9ms | ActiveRecord: 0.9ms | Allocations: 3708)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:06:50 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (42.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 517.9ms | Allocations: 1146)
+  Rendered layout layouts/application.html.erb (Duration: 1071.9ms | Allocations: 3553)
+Completed 200 OK in 1498ms (Views: 1411.7ms | ActiveRecord: 42.2ms | Allocations: 3830)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:07:11 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 170.7ms | Allocations: 1143)
+  Rendered layout layouts/application.html.erb (Duration: 884.4ms | Allocations: 3469)
+Completed 200 OK in 956ms (Views: 930.0ms | ActiveRecord: 0.8ms | Allocations: 3727)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:07:19 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 108.7ms | Allocations: 1152)
+  Rendered layout layouts/application.html.erb (Duration: 142.3ms | Allocations: 2065)
+Completed 200 OK in 177ms (Views: 161.8ms | ActiveRecord: 1.0ms | Allocations: 2323)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:07:29 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 39.4ms | Allocations: 1155)
+  Rendered layout layouts/application.html.erb (Duration: 356.8ms | Allocations: 3477)
+Completed 200 OK in 416ms (Views: 408.4ms | ActiveRecord: 0.8ms | Allocations: 3735)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:07:45 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 32.0ms | Allocations: 1152)
+  Rendered layout layouts/application.html.erb (Duration: 307.1ms | Allocations: 3567)
+Completed 200 OK in 348ms (Views: 330.8ms | ActiveRecord: 1.7ms | Allocations: 3825)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:09:34 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 154.0ms | Allocations: 1668)
+  Rendered layout layouts/application.html.erb (Duration: 566.2ms | Allocations: 2971)
+Completed 200 OK in 898ms (Views: 886.9ms | ActiveRecord: 0.9ms | Allocations: 3768)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:11:20 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 59.8ms | Allocations: 1140)
+  Rendered layout layouts/application.html.erb (Duration: 562.8ms | Allocations: 3532)
+Completed 200 OK in 584ms (Views: 567.7ms | ActiveRecord: 0.8ms | Allocations: 3809)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:11:41 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 152.3ms | Allocations: 1149)
+  Rendered layout layouts/application.html.erb (Duration: 445.7ms | Allocations: 3467)
+Completed 200 OK in 637ms (Views: 623.4ms | ActiveRecord: 0.8ms | Allocations: 3726)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:12:40 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (41.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 101.0ms | Allocations: 1631)
+  Rendered layout layouts/application.html.erb (Duration: 202.3ms | Allocations: 2879)
+Completed 200 OK in 279ms (Views: 222.5ms | ActiveRecord: 41.0ms | Allocations: 3676)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:13:09 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 306.5ms | Allocations: 1674)
+  Rendered layout layouts/application.html.erb (Duration: 557.6ms | Allocations: 2921)
+Completed 200 OK in 1251ms (Views: 1204.8ms | ActiveRecord: 1.0ms | Allocations: 3738)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:13:32 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 522.1ms | Allocations: 1848)
+  Rendered layout layouts/application.html.erb (Duration: 974.9ms | Allocations: 3093)
+Completed 200 OK in 1852ms (Views: 1844.0ms | ActiveRecord: 0.9ms | Allocations: 3910)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:15:13 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 50.9ms | Allocations: 1654)
+  Rendered layout layouts/application.html.erb (Duration: 160.7ms | Allocations: 2907)
+Completed 200 OK in 232ms (Views: 220.8ms | ActiveRecord: 0.9ms | Allocations: 3723)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:15:36 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 1111.5ms | Allocations: 1138)
+  Rendered layout layouts/application.html.erb (Duration: 1579.6ms | Allocations: 3545)
+Completed 200 OK in 1830ms (Views: 1772.2ms | ActiveRecord: 0.9ms | Allocations: 3822)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:16:10 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (34.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 185.3ms | Allocations: 1146)
+  Rendered layout layouts/application.html.erb (Duration: 837.6ms | Allocations: 3469)
+Completed 200 OK in 1349ms (Views: 1301.5ms | ActiveRecord: 34.2ms | Allocations: 3727)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:16:26 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 1028.5ms | Allocations: 1154)
+  Rendered layout layouts/application.html.erb (Duration: 1591.1ms | Allocations: 3565)
+Completed 200 OK in 1655ms (Views: 1598.7ms | ActiveRecord: 0.8ms | Allocations: 3823)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:16:43 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 126.2ms | Allocations: 1137)
+  Rendered layout layouts/application.html.erb (Duration: 419.0ms | Allocations: 2153)
+Completed 200 OK in 620ms (Views: 611.2ms | ActiveRecord: 0.8ms | Allocations: 2411)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:17:03 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 46.6ms | Allocations: 1135)
+  Rendered layout layouts/application.html.erb (Duration: 197.1ms | Allocations: 3448)
+Completed 200 OK in 220ms (Views: 207.2ms | ActiveRecord: 2.4ms | Allocations: 3706)
+
+
+Started GET "/splash" for ::1 at 2022-12-22 02:17:06 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 34.4ms | Allocations: 1137)
+  Rendered layout layouts/application.html.erb (Duration: 69.0ms | Allocations: 2050)
+Completed 200 OK in 106ms (Views: 97.5ms | ActiveRecord: 0.8ms | Allocations: 2308)
+
+
+Started GET "/users/sign_out" for ::1 at 2022-12-22 02:17:14 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/categories" for ::1 at 2022-12-22 02:17:42 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (6.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (3.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (3.4ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (3.0ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (2.7ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:10
+  Rendered categories/index.html.erb within layouts/application (Duration: 418.5ms | Allocations: 8275)
+  Rendered layout layouts/application.html.erb (Duration: 459.0ms | Allocations: 9339)
+Completed 200 OK in 543ms (Views: 460.4ms | ActiveRecord: 24.8ms | Allocations: 11372)
+
+
+Started GET "/users/sign_out" for ::1 at 2022-12-22 02:17:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/users/sign_out" for ::1 at 2022-12-22 02:18:21 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_out"):
+  
+Started GET "/splash" for ::1 at 2022-12-22 02:18:31 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 173.6ms | Allocations: 1849)
+  Rendered layout layouts/application.html.erb (Duration: 284.3ms | Allocations: 3099)
+Completed 200 OK in 599ms (Views: 513.2ms | ActiveRecord: 1.7ms | Allocations: 3878)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2022-12-22 02:18:36 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 165ms (ActiveRecord: 2.1ms | Allocations: 2637)
+
+
+Started GET "/" for ::1 at 2022-12-22 02:18:37 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 463)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 1468)
+Completed 200 OK in 71ms (Views: 62.3ms | ActiveRecord: 0.0ms | Allocations: 1765)
+
+
+Started GET "/" for ::1 at 2022-12-22 02:20:48 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 821)
+  Rendered layout layouts/application.html.erb (Duration: 82.1ms | Allocations: 2071)
+Completed 200 OK in 134ms (Views: 124.6ms | ActiveRecord: 0.0ms | Allocations: 2877)
+
+
+Started GET "/" for ::1 at 2022-12-22 02:21:09 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 805)
+  Rendered layout layouts/application.html.erb (Duration: 312.7ms | Allocations: 2056)
+Completed 200 OK in 463ms (Views: 457.1ms | ActiveRecord: 0.0ms | Allocations: 2881)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-22 02:21:23 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/shared/_links.html.erb (Duration: 298.2ms | Allocations: 543)
+  Rendered C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/devise-4.8.1/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 491.9ms | Allocations: 2245)
+  Rendered layout layouts/application.html.erb (Duration: 639.8ms | Allocations: 3290)
+Completed 200 OK in 1085ms (Views: 911.6ms | ActiveRecord: 0.0ms | Allocations: 4681)
+
+
+Started POST "/users/sign_in" for ::1 at 2022-12-22 02:21:40 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"tester2@tester.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "tester2@tester.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 885ms (ActiveRecord: 2.8ms | Allocations: 2994)
+
+
+Started GET "/" for ::1 at 2022-12-22 02:21:42 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (9.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 206.4ms | Allocations: 1353)
+  Rendered layout layouts/application.html.erb (Duration: 393.6ms | Allocations: 2267)
+Completed 200 OK in 514ms (Views: 495.9ms | ActiveRecord: 9.8ms | Allocations: 2527)
+
+
+Started GET "/" for ::1 at 2022-12-22 02:23:16 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/splash/index.html.erb:2
+  Rendered splash/index.html.erb within layouts/application (Duration: 373.4ms | Allocations: 1325)
+  Rendered layout layouts/application.html.erb (Duration: 1073.6ms | Allocations: 3743)
+Completed 200 OK in 1335ms (Views: 1326.2ms | ActiveRecord: 0.9ms | Allocations: 4001)
+
+
+Started GET "/categories" for ::1 at 2022-12-22 02:24:29 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.0ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:10
+  Rendered categories/index.html.erb within layouts/application (Duration: 416.7ms | Allocations: 8244)
+  Rendered layout layouts/application.html.erb (Duration: 507.3ms | Allocations: 9308)
+Completed 200 OK in 624ms (Views: 565.8ms | ActiveRecord: 8.6ms | Allocations: 11373)
+
+
+Started GET "/categories/7" for ::1 at 2022-12-22 02:24:37 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:64:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/_category.html.erb:11
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/_category.html.erb:15
+  Rendered categories/_category.html.erb (Duration: 57.5ms | Allocations: 1650)
+  Rendered categories/show.html.erb within layouts/application (Duration: 103.8ms | Allocations: 2121)
+  Rendered layout layouts/application.html.erb (Duration: 136.6ms | Allocations: 3026)
+Completed 200 OK in 246ms (Views: 156.9ms | ActiveRecord: 3.8ms | Allocations: 5383)
+
+
+Started GET "/categories" for ::1 at 2022-12-22 02:24:46 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 5]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 6]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.7ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 7]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = ?[0m  [["category_id", 8]]
+  ↳ app/views/categories/index.html.erb:10
+  Rendered categories/index.html.erb within layouts/application (Duration: 373.2ms | Allocations: 7674)
+  Rendered layout layouts/application.html.erb (Duration: 413.5ms | Allocations: 8587)
+Completed 200 OK in 497ms (Views: 442.8ms | ActiveRecord: 8.0ms | Allocations: 10262)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
