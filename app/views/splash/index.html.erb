@@ -1,11 +1,13 @@
-<% if user_signed_in? %> 
- <div> Welcome <%= current_user.email %> </div> 
-  <%= button_to "Sign out", destroy_user_session_path, method: :delete %> 
+<br>
+<% if user_signed_in? %>
+ <p class="fw-bold"> Welcome <%= current_user.email %> ! </p>
+ <br>
+  <%= link_to "Sign out", destroy_user_session_path, method: :delete %> 
 <% else %>
   <%= link_to "Sign in", new_user_session_path %>
   <%= link_to 'Sign Up', new_user_registration_path %>
 <% end %>
+<div class="shadow-lg p-3 mb-5 bg-body rounded">
+<h1 class="text-capitalize">ExpensesCheck!</h1></div>
 
-<h1>ExpensesCheck!</h1>
-
-<%= link_to "Go to categories", categories_path %>
+<%= link_to "Go to categories", categories_path, class: "btn btn-outline-primary" %>

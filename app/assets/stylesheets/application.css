@@ -47,3 +47,12 @@ a {
     padding: 4%;
     text-align: center;
 }
+
+.mb-5 {
+    text-align: center;
+    margin: 10%;
+}
+
+.btn-outline-primary {
+    margin-left: 45%;
+}
