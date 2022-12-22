@@ -57,13 +57,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [ExpensesCheck] <a name="expenses-check"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> **[ExpensesCheck]** is a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.
 
 ## 🛠 Built With <a name="built-with"></a>
+    Ruby on Rails
+    Bootstrap
+    CSS
+    HTML
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -106,9 +108,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://expensescheck.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,17 +202,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Amalia Gomez Moro**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AmaliaGM](https://github.com/AmaliaGM)
+- Twitter: [@AmaliaGomezMoro](https://twitter.com/AmaliaGomezMoro)
+- LinkedIn: [@Maria-Amalia-Gomez-Moro](https://www.linkedin.com/in/Maria-Amalia-Gomez-Moro/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,7 +246,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+** Original design idea by Gregoire Vella on Behance **
 
 I would like to thank...
 
