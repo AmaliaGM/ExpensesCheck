@@ -1,17 +1,9 @@
 <div id="<%= dom_id expense %>">
   <p>
-    <strong>Title:</strong>
-    <%= expense.title %>
-  </p>
-
-  <p>
-    <strong>Category:</strong>
-    <%= link_to expense.category.name, expense.category %>
-  </p>
-
-  <p>
-    <strong>Price:</strong>
-    <%= expense.price %>
-  </p>
-
+  <div class="bg-light border"> <%= link_to expense.category.name, expense.category %>
+  </div>
+  <div class="hstack gap-3">
+  <%= expense.title %>
+  <div class="ms-auto"><%= expense.price %></div><br>
+  </div>
 </div>
