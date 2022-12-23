@@ -10,13 +10,14 @@ RSpec.describe Expense, type: :model do
       id: '3',
       title: 'Chicken',
       category_id: '4',
-      price: '20'
+      price: '20',
+      category: Category('#')
     }
   end
 
   subject { Expense.new valid_attributes }
 
-  it 'is valid with a name' do
+  it 'is valid with a title' do
     subject.title = nil
     expect(subject).to_not be_valid
   end
