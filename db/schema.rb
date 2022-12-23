@@ -15,15 +15,15 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_20_213301) do
   enable_extension "plpgsql"
 
   create_table "categories", force: :cascade do |t|
-    t.string "name"
+    t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "icon"
+    t.string "icon", null: false
   end
 
   create_table "expenses", force: :cascade do |t|
-    t.string "title"
-    t.decimal "price"
+    t.string "title", null: false
+    t.decimal "price", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.bigint "category_id", null: false

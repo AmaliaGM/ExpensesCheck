@@ -12,7 +12,7 @@ body {
 .hstack {
   font-size: 20px;
   font-weight: bold;
-  color: grey;
+  color: #434b54;
 }
 
 .gap-3 {
@@ -28,6 +28,10 @@ a.navbar {
   text-align: center;
 }
 
+navbar navbar-dark bg-primary {
+  background-color: #3778c2;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -39,7 +43,7 @@ a {
 
 .footer {
   margin-top: 5%;
-  background-color: rgb(62, 182, 62);
+  background-color: #5fb523;
   padding: 4%;
   text-align: center;
 }
@@ -54,7 +58,7 @@ a {
 }
 
 .bi.bi-cash-stack {
-  color: rgb(62, 182, 62);
+  color: #5fb523;
   font-size: 60px;
   margin-left: 45%;
 }
