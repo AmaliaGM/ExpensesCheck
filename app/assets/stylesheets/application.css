@@ -28,7 +28,7 @@ a.navbar {
   text-align: center;
 }
 
-navbar navbar-dark bg-primary {
+.navbar.navbar-dark.bg-primary {
   background-color: #3778c2;
 }
 
