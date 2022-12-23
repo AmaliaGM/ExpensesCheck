@@ -27516,3 +27516,5 @@ Migrating to AddIconToCategory (20221220213301)
   [1m[35m (810.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "expenses_check_test"[0m
   [1m[35m (3.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "expenses_check"[0m
   [1m[35m (0.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "expenses_check_test"[0m
+  [1m[35m (3.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "expenses_check"[0m
+  [1m[35m (0.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "expenses_check_test"[0m
