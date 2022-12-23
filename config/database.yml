@@ -25,7 +25,7 @@ default: &default
 
 development:
   <<: *default
-  database: expenses_check
+  database: expenses_check_development
   # encoding: unicode
   # username: postgres
   # password: amalia
