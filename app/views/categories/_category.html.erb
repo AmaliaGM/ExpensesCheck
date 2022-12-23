@@ -15,6 +15,10 @@
   <%= link_to "Add expense", new_expense_path, class: 'gap-3' %>
 <br>
 
+<div>
+<%= form.number_field :user_id, id: :category_user_id, value: current_user.id, type: :hidden %>
+</div>
+
 <% category.expenses.each do |expense| %>
 <div class="hstack gap-3">
   <%= expense.title %>
