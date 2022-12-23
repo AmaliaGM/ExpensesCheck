@@ -246,9 +246,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-** Original design idea by Gregoire Vella on Behance **
-
-I would like to thank...
+**Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
