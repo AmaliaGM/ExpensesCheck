@@ -6,7 +6,7 @@
  <%= link_to "Go to categories", categories_path, class: "btn btn-outline-primary" %>
  <br>
  <% if user_signed_in? %>
-  <p class="fw-bold"> Welcome <%= current_user.email %> ! </p>
+  <p class="fw-bold"> Welcome <%= current_user.username %> ! </p>
  <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %> 
  <% else %>
  <%= link_to "Sign in", new_user_session_path, class: "btn btn-outline-success" %>
