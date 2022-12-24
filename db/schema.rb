@@ -19,7 +19,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_24_185645) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "icon"
-    t.integer "user_id"
     t.index ["user_id"], name: "index_categories_on_user_id", unique: true
   end
 
