@@ -5,8 +5,9 @@
 <div class="hstack gap-3"> 
 Total expenses
 <div class="ms-auto">
-<%= number_to_currency(@expenses.sum(:price)) %>
-</div></div>
+<%= number_to_currency(@expense.sum(:price)) %>
+</div>
+</div>
 
 <div id="expenses">
   <% @expenses.each do |expense| %>

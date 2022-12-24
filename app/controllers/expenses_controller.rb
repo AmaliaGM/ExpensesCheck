@@ -5,7 +5,7 @@ class ExpensesController < ApplicationController
 
   # GET /expenses or /expenses.json
   def index
-    @expenses = @category.expenses
+    @expenses = Expense.all
   end
 
   # GET /expenses/1 or /expenses/1.json
