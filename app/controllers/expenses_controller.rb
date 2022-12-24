@@ -1,11 +1,11 @@
 class ExpensesController < ApplicationController
   before_action :authenticate_user!, except: [:splash]
   before_action :set_expense, only: %i[show edit update destroy]
-  before_action :set_categories
+  before_action :set_category
 
   # GET /expenses or /expenses.json
   def index
-    @expenses = Expense.all
+    @expenses = @category.expenses
   end
 
   # GET /expenses/1 or /expenses/1.json
@@ -22,7 +22,6 @@ class ExpensesController < ApplicationController
   # POST /expenses or /expenses.json
   def create
     @expense = Expense.new(expense_params)
-
     respond_to do |format|
       if @expense.save
         format.html { redirect_to expense_url(@expense), notice: 'Expense was successfully created.' }
@@ -66,10 +65,10 @@ class ExpensesController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def expense_params
-    params.require(:expense).permit(:title, :price, :category_id, :user_id)
+    params.require(:expense).permit(:title, :price, :category_id).with_defaults(user_id: current_user.id)
   end
 
-  def set_categories
-    @categories = Category.all.order(:name)
+  def set_category
+    @category = Category.where(params[:category_id]).order(:name)
   end
 end

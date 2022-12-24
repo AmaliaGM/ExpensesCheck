@@ -13,7 +13,7 @@
 
   <div>
     <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
+    <%= form.text_field :name,  options_for_select(@user.collect { |n| [n.name, n.id]}) %> %>
   </div>
 
   <div>
