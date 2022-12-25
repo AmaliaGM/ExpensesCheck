@@ -19,6 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_24_235226) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "icon"
+    t.integer "user_id"
     t.index ["user_id"], name: "index_categories_on_user_id", unique: true
   end
 
@@ -27,8 +28,10 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_24_235226) do
     t.decimal "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "category_id", null: false
+    t.integer "user_id"
     t.index ["category_id"], name: "index_expenses_on_category_id"
-    t.index ["user_id"], name: "index_expenses_on_user_id", unique: true, null: false
+    t.index ["user_id"], name: "index_expenses_on_user_id", unique: true
   end
 
   create_table "users", force: :cascade do |t|
