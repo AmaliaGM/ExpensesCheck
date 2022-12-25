@@ -69,6 +69,6 @@ class ExpensesController < ApplicationController
   end
 
   def set_category
-    @category = Category.where(params[:category_id]).order(:title)
+    @category = Category.where(params[:category_id]).order(:name)
   end
 end
