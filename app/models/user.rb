@@ -6,5 +6,5 @@ class User < ApplicationRecord
   has_many :categories
   has_many :expenses
 
-  validates :name, presence: true
+  validates :username, presence: true
 end
