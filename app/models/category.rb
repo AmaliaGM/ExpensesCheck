@@ -3,5 +3,5 @@ class Category < ApplicationRecord
   has_many :expenses
 
   validates :name, presence: true, uniqueness: { scope: :user }
-  validates :icon, presence: true
+  validates :icon, :user_id presence: true
 end
