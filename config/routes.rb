@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :categories, :expenses, :users, :splash
-  
+  resources :categories do
+    :expenses
+  resouces :users, :splash
   # Defines the root path route ("/")\
-  root 'splash#index'
+  root 'category#index'
 end
