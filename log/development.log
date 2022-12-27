@@ -38164,3 +38164,3004 @@ Processing by UsersController#show as HTML
 Completed 401 Unauthorized in 24ms (Allocations: 1119)
 
 
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:54 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 131ms (ActiveRecord: 0.0ms | Allocations: 2541)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:56 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 369)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:57 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 24ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:59 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:00:59 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:00 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:01 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 41ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 148ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 323)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 71ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:05 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:05 -0300
+Started GET "/" for ::1 at 2022-12-26 21:01:05 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 88ms (ActiveRecord: 0.0ms | Allocations: 291)
+
+
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 471)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 41ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:14 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:14 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:15 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 36ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:01:15 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:15 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:16 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:16 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:17 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:19 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:19 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 48ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 44ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 266)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:25 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms | Allocations: 282)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:25 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:27 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:27 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:31 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:31 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 41ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:43 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 78ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:44 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:45 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 376)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 49ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 46ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:50 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:50 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 48ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:52 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 59ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:54 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 57ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 285)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:59 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:01:59 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:00 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 67ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:01 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 34ms (ActiveRecord: 0.0ms | Allocations: 303)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:05 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 46ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:02:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:04:59 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 5.6ms | Allocations: 687)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 207.1ms | Allocations: 3936)
+  Rendered layout layouts/application.html.erb (Duration: 1838.8ms | Allocations: 47981)
+Completed 200 OK in 2314ms (Views: 2202.9ms | ActiveRecord: 33.0ms | Allocations: 56870)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:05:28 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 82ms (ActiveRecord: 0.0ms | Allocations: 489)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 21:05:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:05:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:05:44 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:05:54 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:09:59 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:10:20 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:10:32 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:12:24 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:12:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/" for ::1 at 2022-12-26 21:12:38 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms | Allocations: 1079)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms | Allocations: 510)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:42 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:44 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:44 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:45 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:45 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:12:50 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:50 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:52 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:52 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:54 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 269)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:54 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 48ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:56 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:56 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:57 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:57 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 295)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:12:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:01 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 39ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 48ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 68ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 59ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 263)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 117ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:24 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 97ms (ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:25 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:25 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 1113)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:35 -0300
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.0ms | Allocations: 1156)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:13:58 -0300
+Processing by UsersController#show as HTML
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 1006)
+
+
+Completed 401 Unauthorized in 146ms (ActiveRecord: 0.0ms | Allocations: 2447)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 301)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:24 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 326)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:24 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:25 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:25 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:25 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 29ms (ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:27 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:27 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:27 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 43ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:34 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:34 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:36 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:37 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:37 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:37 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:38 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:38 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 335)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 24ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:49 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:49 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:50 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 67ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:50 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:51 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:52 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:52 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 31ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:52 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:53 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:54 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:54 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:14:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:27 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:27 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:31 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:31 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 33ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 44ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 50ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:34 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:15:34 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:35 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:35 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 24ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:36 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:36 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:37 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:37 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:37 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 326)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:38 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:38 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:38 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:39 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:40 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:42 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:42 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:16:43 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 47ms (Allocations: 289)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:41 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (Allocations: 289)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:42 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (Allocations: 292)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:43 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (Allocations: 280)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:43 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (Allocations: 295)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:44 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (Allocations: 286)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:44 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (Allocations: 319)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:44 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (Allocations: 295)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:45 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (Allocations: 289)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:45 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (Allocations: 283)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (Allocations: 280)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (Allocations: 304)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:46 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (Allocations: 295)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (Allocations: 295)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (Allocations: 286)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:47 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (Allocations: 265)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (Allocations: 304)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:48 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (Allocations: 307)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:49 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (Allocations: 319)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:19:49 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (Allocations: 286)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:20:04 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.6ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 25.1ms | Allocations: 1487)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 2552)
+Completed 200 OK in 452ms (Views: 76.1ms | ActiveRecord: 83.4ms | Allocations: 9569)
+
+
+Started POST "/users/sign_in" for ::1 at 2022-12-26 21:26:07 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"tester2@tester.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (11.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "tester2@tester.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 717ms (ActiveRecord: 43.6ms | Allocations: 8648)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:26:08 -0300
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 31ms (ActiveRecord: 1.5ms | Allocations: 1792)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:26:08 -0300
+Processing by SplashController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 691)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 1767)
+Completed 200 OK in 94ms (Views: 74.8ms | ActiveRecord: 1.4ms | Allocations: 4113)
+
+
+Started GET "/categories" for ::1 at 2022-12-26 21:26:18 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (9.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (13.3ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.4ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:10
+  Rendered categories/index.html.erb within layouts/application (Duration: 390.7ms | Allocations: 13138)
+  Rendered layout layouts/application.html.erb (Duration: 499.6ms | Allocations: 14220)
+Completed 200 OK in 794ms (Views: 505.6ms | ActiveRecord: 128.3ms | Allocations: 19441)
+
+
+Started GET "/categories/new" for ::1 at 2022-12-26 21:26:26 -0300
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 42.0ms | Allocations: 2753)
+  Rendered categories/new.html.erb within layouts/application (Duration: 50.2ms | Allocations: 3071)
+  Rendered layout layouts/application.html.erb (Duration: 122.4ms | Allocations: 4092)
+Completed 200 OK in 192ms (Views: 149.0ms | ActiveRecord: 1.2ms | Allocations: 5979)
+
+
+Started POST "/categories" for ::1 at 2022-12-26 21:26:36 -0300
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "category"=>{"name"=>"Books", "icon"=>"📚"}, "commit"=>"Create Category"}
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/categories_controller.rb:26:in `block in create'
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:26:in `block in create'
+  [1m[36mCategory Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM "categories" WHERE "categories"."name" = $1 AND "categories"."user_id" = $2 LIMIT $3[0m  [["name", "Books"], ["user_id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:26:in `block in create'
+  [1m[36mCategory Create (7.6ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at", "icon", "user_id") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Books"], ["created_at", "2022-12-27 00:26:37.307180"], ["updated_at", "2022-12-27 00:26:37.307180"], ["icon", "📚"], ["user_id", 1]]
+  ↳ app/controllers/categories_controller.rb:26:in `block in create'
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/categories_controller.rb:26:in `block in create'
+Redirected to http://localhost:3000/categories/4
+Completed 302 Found in 183ms (ActiveRecord: 17.1ms | Allocations: 7864)
+
+
+Started GET "/categories/4" for ::1 at 2022-12-26 21:26:37 -0300
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:63:in `set_category'
+  Rendering layout layouts/application.html.erb
+  Rendering categories/show.html.erb within layouts/application
+  [1m[36mExpense Sum (3.0ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/views/categories/_category.html.erb:12
+  [1m[36mExpense Load (1.0ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/views/categories/_category.html.erb:19
+  Rendered categories/_category.html.erb (Duration: 36.7ms | Allocations: 2803)
+  Rendered categories/show.html.erb within layouts/application (Duration: 567.1ms | Allocations: 10388)
+  Rendered layout layouts/application.html.erb (Duration: 584.4ms | Allocations: 11395)
+Completed 200 OK in 648ms (Views: 584.8ms | ActiveRecord: 6.4ms | Allocations: 14251)
+
+
+Started GET "/expenses/new" for ::1 at 2022-12-26 21:26:41 -0300
+Processing by ExpensesController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/new.html.erb within layouts/application
+  [1m[36mCategory Load (2.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."name" ASC[0m
+  ↳ app/views/expenses/_form.html.erb:21:in `collect'
+  Rendered expenses/_form.html.erb (Duration: 27.5ms | Allocations: 2740)
+  Rendered expenses/new.html.erb within layouts/application (Duration: 38.9ms | Allocations: 3074)
+  Rendered layout layouts/application.html.erb (Duration: 72.5ms | Allocations: 4131)
+Completed 200 OK in 176ms (Views: 104.8ms | ActiveRecord: 8.2ms | Allocations: 9187)
+
+
+Started POST "/expenses" for ::1 at 2022-12-26 21:27:04 -0300
+Processing by ExpensesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "expense"=>{"title"=>"Adventure books ", "category_id"=>"4", "price"=>"100"}, "commit"=>"Create Expense"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/expenses_controller.rb:26:in `block in create'
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:26:in `block in create'
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:26:in `block in create'
+  [1m[36mExpense Create (10.5ms)[0m  [1m[32mINSERT INTO "expenses" ("title", "price", "created_at", "updated_at", "user_id", "category_id") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Adventure books "], ["price", "100.0"], ["created_at", "2022-12-27 00:27:05.093899"], ["updated_at", "2022-12-27 00:27:05.093899"], ["user_id", 1], ["category_id", 4]]
+  ↳ app/controllers/expenses_controller.rb:26:in `block in create'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/expenses_controller.rb:26:in `block in create'
+Redirected to http://localhost:3000/expenses/4
+Completed 302 Found in 123ms (ActiveRecord: 17.0ms | Allocations: 8374)
+
+
+Started GET "/expenses/4" for ::1 at 2022-12-26 21:27:05 -0300
+Processing by ExpensesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses" WHERE "expenses"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/expenses_controller.rb:63:in `set_expense'
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/show.html.erb within layouts/application
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 23.2ms | Allocations: 959)
+  Rendered expenses/show.html.erb within layouts/application (Duration: 40.0ms | Allocations: 1710)
+  Rendered layout layouts/application.html.erb (Duration: 79.1ms | Allocations: 2626)
+Completed 200 OK in 157ms (Views: 97.3ms | ActiveRecord: 3.1ms | Allocations: 5504)
+
+
+Started GET "/expenses" for ::1 at 2022-12-26 21:27:08 -0300
+Processing by ExpensesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Sum (1.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:8
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:13
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 15.7ms | Allocations: 783)
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 22.1ms | Allocations: 776)
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 26.6ms | Allocations: 775)
+  [1m[36mCategory Load (0.9ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 30.8ms | Allocations: 775)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 139.0ms | Allocations: 5575)
+  Rendered layout layouts/application.html.erb (Duration: 165.7ms | Allocations: 6487)
+Completed 200 OK in 216ms (Views: 169.5ms | ActiveRecord: 7.9ms | Allocations: 8232)
+
+
+Started GET "/expenses" for ::1 at 2022-12-26 21:38:38 -0300
+Processing by ExpensesController#index as HTML
+  [1m[36mUser Load (8.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering expenses/index.html.erb within layouts/application
+  [1m[36mExpense Sum (23.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:8
+  [1m[36mExpense Load (1.1ms)[0m  [1m[34mSELECT "expenses".* FROM "expenses"[0m
+  ↳ app/views/expenses/index.html.erb:13
+  [1m[36mCategory Load (9.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 47.6ms | Allocations: 3731)
+  [1m[36mCategory Load (1.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 115.6ms | Allocations: 782)
+  [1m[36mCategory Load (1.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 12.6ms | Allocations: 777)
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/views/expenses/_expense.html.erb:3
+  Rendered expenses/_expense.html.erb (Duration: 8.6ms | Allocations: 777)
+  Rendered expenses/index.html.erb within layouts/application (Duration: 473.8ms | Allocations: 10271)
+  Rendered layout layouts/application.html.erb (Duration: 494.1ms | Allocations: 11334)
+Completed 200 OK in 1216ms (Views: 469.7ms | ActiveRecord: 76.2ms | Allocations: 22053)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:38:55 -0300
+Processing by SplashController#index as HTML
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 412)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 1486)
+Completed 200 OK in 93ms (Views: 66.2ms | ActiveRecord: 1.9ms | Allocations: 3686)
+
+
+Started GET "/categories" for ::1 at 2022-12-26 21:39:02 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (2.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (1.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (3.8ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.3ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.1ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:10
+  Rendered categories/index.html.erb within layouts/application (Duration: 154.7ms | Allocations: 6968)
+  Rendered layout layouts/application.html.erb (Duration: 181.0ms | Allocations: 8043)
+Completed 200 OK in 246ms (Views: 177.7ms | ActiveRecord: 12.6ms | Allocations: 10823)
+
+
+Started GET "/categories" for ::1 at 2022-12-26 21:39:05 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (3.8ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (1.6ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.1ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:10
+  Rendered categories/index.html.erb within layouts/application (Duration: 76.6ms | Allocations: 4640)
+  Rendered layout layouts/application.html.erb (Duration: 178.4ms | Allocations: 5559)
+Completed 200 OK in 287ms (Views: 225.3ms | ActiveRecord: 9.8ms | Allocations: 7293)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2022-12-26 21:39:09 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 75ms (ActiveRecord: 1.3ms | Allocations: 3132)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:39:10 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 346)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:10 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 47.5ms | Allocations: 1475)
+  Rendered layout layouts/application.html.erb (Duration: 80.1ms | Allocations: 2533)
+Completed 200 OK in 121ms (Views: 91.6ms | ActiveRecord: 0.0ms | Allocations: 3528)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:39:15 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 34ms (ActiveRecord: 0.0ms | Allocations: 358)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:15 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 42.0ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 103.9ms | Allocations: 2133)
+Completed 200 OK in 154ms (Views: 138.3ms | ActiveRecord: 0.0ms | Allocations: 2826)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:39:24 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:24 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 2133)
+Completed 200 OK in 83ms (Views: 61.0ms | ActiveRecord: 0.0ms | Allocations: 2755)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:39:40 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 1061)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:49 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms | Allocations: 500)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:50 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 59ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:52 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:54 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:55 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:56 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 35ms (ActiveRecord: 0.0ms | Allocations: 285)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:57 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:57 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:58 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:59 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 19ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:39:59 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:00 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:01 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:01 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 43ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 51ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 323)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 37ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:40:04 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 32ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:05 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 24ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 90ms (ActiveRecord: 0.0ms | Allocations: 284)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:08 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 27ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 266)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 308)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 266)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:15 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 266)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:16 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:16 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:16 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:17 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:17 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:17 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:18 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 317)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:19 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:19 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 28ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 22ms (ActiveRecord: 0.0ms | Allocations: 326)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:21 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:23 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 34ms (ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:29 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 29ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:30 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:31 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:31 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 323)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:32 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 26ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:33 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 272)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:34 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 13ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:34 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 18ms (ActiveRecord: 0.0ms | Allocations: 302)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:35 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 314)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:35 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:35 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:36 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:36 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:36 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:40:44 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 20ms (ActiveRecord: 0.0ms | Allocations: 1113)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:02 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 24ms (ActiveRecord: 0.0ms | Allocations: 292)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:03 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:04 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 67ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:05 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 65ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:06 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 269)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:07 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 320)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:09 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 30ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:10 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 9ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:11 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:12 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:13 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 278)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:15 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 17ms (ActiveRecord: 0.0ms | Allocations: 311)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:17 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:20 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 44ms (ActiveRecord: 0.0ms | Allocations: 281)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:22 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 178ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:24 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 7ms (ActiveRecord: 0.0ms | Allocations: 290)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:26 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 76ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:28 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms | Allocations: 299)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:41:31 -0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"sign_in"}
+Completed 401 Unauthorized in 15ms (ActiveRecord: 0.0ms | Allocations: 269)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:42:01 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 64.0ms | Allocations: 1487)
+  Rendered layout layouts/application.html.erb (Duration: 155.7ms | Allocations: 2551)
+Completed 200 OK in 296ms (Views: 199.0ms | ActiveRecord: 57.8ms | Allocations: 6513)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 21:43:48 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:43:49 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/splash"):
+  
+Started GET "/splash" for ::1 at 2022-12-26 21:44:33 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 1076)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:44:44 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 183.5ms | Allocations: 1484)
+  Rendered layout layouts/application.html.erb (Duration: 354.0ms | Allocations: 2548)
+Completed 200 OK in 566ms (Views: 500.9ms | ActiveRecord: 15.9ms | Allocations: 6400)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:46:33 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 188.7ms | Allocations: 1489)
+Started GET "/splash" for ::1 at 2022-12-26 21:46:44 -0300
+  Rendered layout layouts/application.html.erb (Duration: 563.6ms | Allocations: 3039)
+Completed 200 OK in 725ms (Views: 671.0ms | ActiveRecord: 12.4ms | Allocations: 6967)
+
+
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 52ms (ActiveRecord: 0.0ms | Allocations: 1088)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:46:53 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 22.2ms | Allocations: 1483)
+  Rendered layout layouts/application.html.erb (Duration: 201.7ms | Allocations: 2548)
+Completed 200 OK in 281ms (Views: 231.5ms | ActiveRecord: 14.3ms | Allocations: 6363)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:47:45 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.7ms | Allocations: 161)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 331.9ms | Allocations: 1487)
+  Rendered layout layouts/application.html.erb (Duration: 1066.5ms | Allocations: 2564)
+Completed 200 OK in 1401ms (Views: 1305.3ms | ActiveRecord: 13.8ms | Allocations: 6476)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 21:48:03 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 25ms (ActiveRecord: 0.0ms | Allocations: 509)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:48:05 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 133)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 95.8ms | Allocations: 1290)
+  Rendered layout layouts/application.html.erb (Duration: 453.1ms | Allocations: 2291)
+Completed 200 OK in 736ms (Views: 666.3ms | ActiveRecord: 0.0ms | Allocations: 3007)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 21:49:18 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms | Allocations: 287)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:49:21 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 306.9ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 862.6ms | Allocations: 2143)
+Completed 200 OK in 1238ms (Views: 1189.5ms | ActiveRecord: 0.0ms | Allocations: 2784)
+
+
+Started POST "/users/sign_in" for ::1 at 2022-12-26 21:49:53 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"tester2@tester.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "tester2@tester.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/splash
+Completed 302 Found in 1256ms (ActiveRecord: 1.4ms | Allocations: 2873)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 21:49:57 -0300
+Processing by SplashController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 424)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 1498)
+Completed 200 OK in 89ms (Views: 28.5ms | ActiveRecord: 1.1ms | Allocations: 3390)
+
+
+Started GET "/categories" for ::1 at 2022-12-26 21:50:42 -0300
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering layout layouts/application.html.erb
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (1.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/categories/index.html.erb:6
+  [1m[36mExpense Sum (1.0ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 1]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 2]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (0.9ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 3]]
+  ↳ app/views/categories/index.html.erb:10
+  [1m[36mExpense Sum (1.2ms)[0m  [1m[34mSELECT SUM("expenses"."price") FROM "expenses" WHERE "expenses"."category_id" = $1[0m  [["category_id", 4]]
+  ↳ app/views/categories/index.html.erb:10
+  Rendered categories/index.html.erb within layouts/application (Duration: 128.3ms | Allocations: 10346)
+  Rendered layout layouts/application.html.erb (Duration: 167.2ms | Allocations: 11420)
+Completed 200 OK in 290ms (Views: 178.9ms | ActiveRecord: 18.3ms | Allocations: 15287)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2022-12-26 21:51:41 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 37ms (ActiveRecord: 0.8ms | Allocations: 2234)
+
+
+Started GET "/" for ::1 at 2022-12-26 21:51:41 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 16ms (ActiveRecord: 0.0ms | Allocations: 289)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:51:42 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 31.2ms | Allocations: 1265)
+  Rendered layout layouts/application.html.erb (Duration: 104.3ms | Allocations: 2177)
+Completed 200 OK in 140ms (Views: 117.3ms | ActiveRecord: 0.0ms | Allocations: 2849)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 21:51:48 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 21ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:51:48 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 23.5ms | Allocations: 1222)
+  Rendered layout layouts/application.html.erb (Duration: 53.5ms | Allocations: 2133)
+Completed 200 OK in 86ms (Views: 65.1ms | ActiveRecord: 0.0ms | Allocations: 2782)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 21:53:18 -0300
+Processing by SplashController#index as HTML
+Completed 401 Unauthorized in 11ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/users/sign_in" for ::1 at 2022-12-26 21:53:19 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 4.4ms | Allocations: 526)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 85.2ms | Allocations: 2188)
+  Rendered layout layouts/application.html.erb (Duration: 215.8ms | Allocations: 3430)
+Completed 200 OK in 342ms (Views: 328.3ms | ActiveRecord: 0.0ms | Allocations: 4695)
+
+
+Started GET "/splash" for ::1 at 2022-12-26 22:00:39 -0300
+Processing by SplashController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering splash/index.html.erb within layouts/application
+  Rendered splash/index.html.erb within layouts/application (Duration: 10.3ms | Allocations: 791)
+  Rendered layout layouts/application.html.erb (Duration: 80.0ms | Allocations: 2054)
+Completed 200 OK in 177ms (Views: 135.8ms | Allocations: 3600)
+
+
