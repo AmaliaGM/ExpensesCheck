@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   resources :categories, :expenses, :users, :splash
 
   # Defines the root path route ("/")\
-  root 'category#index'
+  root 'splash#index'
 end
