@@ -8,6 +8,7 @@ gem 'font-awesome-sass', '~> 6.2.1'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.4'
 
+gem 'cancan', '~> 1.6', '>= 1.6.10'
 gem 'cancancan', '~> 1.15'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'

@@ -2,6 +2,7 @@ class ExpensesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_expense, only: %i[show edit update destroy]
   before_action :set_category
+  load_and_authorize_resource
 
   # GET /expenses or /expenses.json
   def index
@@ -22,6 +23,7 @@ class ExpensesController < ApplicationController
   # POST /expenses or /expenses.json
   def create
     @expense = Expense.new(expense_params)
+    @expense.user_id = current_user.id
     respond_to do |format|
       if @expense.save
         format.html { redirect_to expense_url(@expense), notice: 'Expense was successfully created.' }
