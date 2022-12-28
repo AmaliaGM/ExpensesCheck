@@ -20,6 +20,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_24_235226) do
     t.datetime "updated_at", null: false
     t.string "icon"
     t.integer "user_id"
+    t.index ["user_id"], name: "index_categories_on_user_id"
   end
 
   create_table "expenses", force: :cascade do |t|
