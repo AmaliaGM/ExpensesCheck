@@ -15,6 +15,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_24_235226) do
   enable_extension "plpgsql"
 
   create_table "categories", force: :cascade do |t|
+    SELECT setval(pg_get_serial_sequence('users','id'), coalesce(max(id)+1; 1), false) FROM users;
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -32,7 +33,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_24_235226) do
   end
 
   create_table "users", force: :cascade do |t|
-    SELECT setval(pg_get_serial_sequence('users','id'), coalesce(max(id)+1; 1), false) FROM users;
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
     t.string "reset_password_token"
