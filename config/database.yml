@@ -26,9 +26,9 @@ default: &default
 development:
   <<: *default
   database: expenses_check_development
-  encoding: unicode
-  username: postgres
-  password: amalia
+  # encoding: unicode
+  # username: postgres
+  # password: amalia
   host: localhost
   port: 5432
 
