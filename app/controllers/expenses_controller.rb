@@ -72,4 +72,9 @@ class ExpensesController < ApplicationController
   def set_category
     @category = Category.where(params[:category_id]).order(:name)
   end
+
+  def current_user
+    @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id].present?
+  end
+  helper_method :current_user
 end

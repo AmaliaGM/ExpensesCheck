@@ -65,4 +65,9 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:username, :email, :password)
   end
+
+  def current_user
+    @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id].present?
+  end
+  helper_method :current_user
 end
