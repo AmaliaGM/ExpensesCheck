@@ -56462,3 +56462,23 @@ Migrating to AddUserIdToCategories (20221228130741)
   [1m[35m (45.4ms)[0m  [1m[35mALTER TABLE "categories" ADD "user_id" integer[0m
   [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK[0m
   [1m[35m (1.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(8175724770265753365)[0m
+  [1m[35m (73.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8175724770265753365)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (24.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(8175724770265753365)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8175724770265753365)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (6.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddExpenseToCategories (20221228132504)
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.4ms)[0m  [1m[35mALTER TABLE "categories" ADD "expense_id" bigint NOT NULL[0m
+  [1m[35m (29.6ms)[0m  [1m[35mCREATE INDEX "index_categories_on_expense_id" ON "categories" ("expense_id")[0m
+  [1m[35m (62.7ms)[0m  [1m[35mALTER TABLE "categories" ADD CONSTRAINT "fk_rails_a9c7c172c1"
+FOREIGN KEY ("expense_id")
+  REFERENCES "expenses" ("id")
+[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20221228132504"]]
+  [1m[36mTRANSACTION (5.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (6.7ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT pg_advisory_unlock(8175724770265753365)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (5.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
