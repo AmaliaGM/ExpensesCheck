@@ -9,6 +9,8 @@ gem 'font-awesome-sass', '~> 6.2.1'
 gem 'rails', '~> 7.0.4'
 
 gem 'cancancan', '~> 1.15'
+
+gem 'figaro'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
