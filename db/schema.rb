@@ -28,7 +28,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_31_192225) do
     t.decimal "price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "user_id"
+    t.integer "user_id", null: false
     t.bigint "category_id", null: false
     t.index ["category_id"], name: "index_expenses_on_category_id"
     t.index ["user_id"], name: "index_expenses_on_user_id"
@@ -62,4 +62,5 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_31_192225) do
 
   add_foreign_key "categories", "users"
   add_foreign_key "expenses", "categories"
+  add_foreign_key "expenses", "users", name: "user_id"
 end
