@@ -2,11 +2,10 @@ class ExpensesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_expense, only: %i[show edit update destroy]
   before_action :set_category
-  load_and_authorize_resource
 
   # GET /expenses or /expenses.json
   def index
-    @expenses = current_user.expenses
+    @expenses = Expense.all
   end
 
   # GET /expenses/1 or /expenses/1.json

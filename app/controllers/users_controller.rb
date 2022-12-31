@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_user, only: %i[show edit update destroy]
   authorize_resource class: false
   # GET /users or /users.json
@@ -20,6 +21,7 @@ class UsersController < ApplicationController
   # POST /users or /users.json
   def create
     @user = User.new(user_params)
+
     respond_to do |format|
       if @user.save
         format.html { redirect_to user_url(@user), notice: 'User was successfully created.' }
@@ -65,9 +67,4 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:username, :email, :password)
   end
-
-  def current_user
-    @current_user ||= User.find_by(id: session[:user_id]) if session[:user_id].present?
-  end
-  helper_method :current_user
 end
