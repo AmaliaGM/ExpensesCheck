@@ -1,0 +1,29 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Expenses</h1>
+
+<div class="hstack gap-3"> 
+Total expenses
+<div class="ms-auto">
+<%= number_to_currency(@expenses.sum(:price)) %>
+</div>
+</div>
+
+<div id="expenses">
+  <% @expenses.each do |expense| %>
+    <%= render expense %>
+    <p>
+      <%= link_to "Show this expense", expense, class:'gap-3' %>
+    </p>
+  <% end %>
+</div>
+
+<div class= 'footer'>
+<%= link_to "New expense", new_expense_path, class: "btn btn-outline-light" %>
+<br>
+<% if user_signed_in? %>
+<%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %> 
+<% else %>
+<%= link_to "Splash", splash_index_path, class: "btn btn-outline-success" %><br>
+ </div>
+ <% end %>

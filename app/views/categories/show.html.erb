@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @category %>
+<br>
+<div class= "footer">
+  <%= link_to "Back to categories", categories_path, class: "btn btn-outline-light" %> |
+  <%= link_to "Edit this category", edit_category_path(@category), class: "btn btn-outline-light" %> |
+
+  <%= button_to "Destroy this category", @category, method: :delete, class: "btn btn-outline-light" %>
+</div>
