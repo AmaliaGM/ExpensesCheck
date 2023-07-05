@@ -1,0 +1,28 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Categories</h1>
+
+<div id="categories">
+  <% @categories.each do |category| %>
+    <div class="hstack gap-3">
+  <div><%= category.icon %><%=  link_to category.name, category %>
+  </div>
+  <div class="ms-auto"><%= number_to_currency(category.expenses.sum(:price)) %></div>
+  </div>
+  </div>
+    
+    <%= link_to "View Expense", category, class: 'gap-3' %><br>
+    <br>
+    </div>
+    <% end %>
+    <br>
+<div class="footer">
+<%= link_to "New category", new_category_path, class: "btn btn-outline-light" %>
+<br>
+<br>
+<% if user_signed_in? %>
+<%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn-outline-dark" %> 
+<% else %>
+<%= link_to "Splash", splash_index_path, class: "btn btn-outline-success" %><br>
+<% end %>
+</div>
