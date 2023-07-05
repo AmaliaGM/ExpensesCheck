@@ -206,7 +206,7 @@ Example:
 
 - GitHub: [@AmaliaGM](https://github.com/AmaliaGM)
 - Twitter: [@AmaliaGomezMoro](https://twitter.com/AmaliaGomezMoro)
-- LinkedIn: [@Maria-Amalia-Gomez-Moro](https://www.linkedin.com/in/Maria-Amalia-Gomez-Moro/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/maria-amalia-gomez-moro/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
